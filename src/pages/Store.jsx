@@ -57,7 +57,7 @@ function PackCard({ pack, navigate }) {
                  style={{ direction: pack.scriptDir === 'rtl' ? 'rtl' : 'ltr' }}>
                 {card.originalText}
               </p>
-              <p className="font-sans text-xs text-ink-400 truncate mt-0.5">{card.originalTextKo}</p>
+              <p className="font-sans text-xs text-ink-400 mt-0.5 line-clamp-2">{card.originalTextKo}</p>
             </div>
             <ChevronRight size={16} className="text-ink-600 flex-shrink-0 ml-2" />
           </button>
