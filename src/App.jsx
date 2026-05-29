@@ -10,8 +10,8 @@ import FilteredCards from './pages/FilteredCards'
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-ink-950 text-ink-100 font-sans">
-      <div className="relative max-w-md mx-auto min-h-screen">
+    <div className="min-h-screen bg-ink-950 text-ink-100 font-sans flex justify-center">
+      <div className="relative w-full max-w-md min-h-screen">
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
