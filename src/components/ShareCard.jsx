@@ -28,11 +28,37 @@ function getGradient(colorClass) {
   return 'linear-gradient(145deg, #1e293b, #020617)'
 }
 
+function getOriginalFontSize(text, isRTL) {
+  const len = text.length
+  const base = isRTL ? 92 : 82
+  if (len > 40) return base * 0.55
+  if (len > 30) return base * 0.65
+  if (len > 20) return base * 0.80
+  if (len > 12) return base * 0.90
+  return base
+}
+
+function getKoFontSize(text) {
+  const len = text.length
+  if (len > 40) return 30
+  if (len > 28) return 34
+  return 43
+}
+
+function getApplyTipClamp(originalLen, koLen) {
+  if (originalLen > 30 || koLen > 28) return 2
+  return 3
+}
+
 const ShareCard = forwardRef(function ShareCard({ card, pack }, ref) {
   const scriptFont = FONT_MAP[pack?.scriptFont || 'serif']
   const isRTL = pack?.scriptDir === 'rtl'
   const gradient = getGradient(pack?.color || 'from-slate-700 to-slate-900')
   const accentHex = getAccentHex(pack?.accentColor)
+
+  const origFontSize = getOriginalFontSize(card.originalText, isRTL)
+  const koFontSize = getKoFontSize(card.originalTextKo)
+  const tipClamp = getApplyTipClamp(card.originalText.length, card.originalTextKo.length)
 
   return (
     <div
@@ -97,7 +123,7 @@ const ShareCard = forwardRef(function ShareCard({ card, pack }, ref) {
         {/* 원문 — 최대 볼드·가장 크게 */}
         <div style={{
           fontFamily: scriptFont,
-          fontSize: isRTL ? 92 : 82,
+          fontSize: origFontSize,
           fontWeight: 800,
           color: accentHex,
           textAlign: 'center',
@@ -116,7 +142,7 @@ const ShareCard = forwardRef(function ShareCard({ card, pack }, ref) {
         {/* 한국어 번역 — 얇게, 중간 크기 */}
         <div style={{
           fontFamily: '"Noto Serif KR", serif',
-          fontSize: 43,
+          fontSize: koFontSize,
           fontWeight: 300,
           color: 'rgba(255,255,255,0.82)',
           textAlign: 'center',
@@ -148,7 +174,7 @@ const ShareCard = forwardRef(function ShareCard({ card, pack }, ref) {
             color: 'rgba(255,255,255,0.7)',
             lineHeight: 1.65,
             display: '-webkit-box',
-            WebkitLineClamp: 3,
+            WebkitLineClamp: tipClamp,
             WebkitBoxOrient: 'vertical',
             overflow: 'hidden',
           }}>
