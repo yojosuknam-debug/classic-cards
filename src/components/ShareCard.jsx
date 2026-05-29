@@ -30,23 +30,33 @@ function getGradient(colorClass) {
 
 function getOriginalFontSize(text, isRTL) {
   const len = text.length
-  const base = isRTL ? 92 : 82
-  if (len > 40) return base * 0.55
-  if (len > 30) return base * 0.65
-  if (len > 20) return base * 0.80
-  if (len > 12) return base * 0.90
+  const base = isRTL ? 88 : 78
+  if (len > 40) return base * 0.52
+  if (len > 30) return base * 0.62
+  if (len > 20) return base * 0.75
+  if (len > 12) return base * 0.88
   return base
 }
 
 function getKoFontSize(text) {
   const len = text.length
-  if (len > 40) return 30
-  if (len > 28) return 34
-  return 43
+  if (len > 40) return 26
+  if (len > 28) return 30
+  if (len > 18) return 34
+  return 40
+}
+
+function getTipFontSize(originalLen, koLen) {
+  const totalLen = originalLen + koLen
+  if (totalLen > 60) return 28
+  if (totalLen > 45) return 32
+  return 36
 }
 
 function getApplyTipClamp(originalLen, koLen) {
-  if (originalLen > 30 || koLen > 28) return 2
+  const totalLen = originalLen + koLen
+  if (totalLen > 60) return 2
+  if (totalLen > 40) return 2
   return 3
 }
 
@@ -58,6 +68,7 @@ const ShareCard = forwardRef(function ShareCard({ card, pack }, ref) {
 
   const origFontSize = getOriginalFontSize(card.originalText, isRTL)
   const koFontSize = getKoFontSize(card.originalTextKo)
+  const tipFontSize = getTipFontSize(card.originalText.length, card.originalTextKo.length)
   const tipClamp = getApplyTipClamp(card.originalText.length, card.originalTextKo.length)
 
   return (
@@ -169,7 +180,7 @@ const ShareCard = forwardRef(function ShareCard({ card, pack }, ref) {
           </div>
           <div style={{
             fontFamily: '"Noto Sans KR", sans-serif',
-            fontSize: 52,
+            fontSize: tipFontSize,
             fontWeight: 300,
             color: 'rgba(255,255,255,0.7)',
             lineHeight: 1.65,
