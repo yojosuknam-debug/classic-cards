@@ -74,7 +74,7 @@ export default function CardView({ card, showActions = true }) {
         >
           {card.originalText}
         </p>
-        <p className="mt-2 font-sans text-base text-ink-300 leading-relaxed">
+        <p className="mt-2 font-sans text-sm text-ink-300 leading-relaxed">
           {card.originalTextKo}
         </p>
       </div>
@@ -85,13 +85,13 @@ export default function CardView({ card, showActions = true }) {
       {/* 현대 해설 */}
       <section>
         <h3 className="text-xs font-sans font-semibold text-ink-400 tracking-widest mb-2">오늘의 해설</h3>
-        <p className="font-sans text-base text-ink-100 leading-relaxed">{card.commentary}</p>
+        <p className="font-sans text-sm text-ink-100 leading-relaxed">{card.commentary}</p>
       </section>
 
       {/* 적용 팁 */}
       <section className="bg-ink-800 rounded-xl p-4">
         <h3 className="text-xs font-sans font-semibold text-gold-400 tracking-widest mb-1.5">오늘 적용하기</h3>
-        <p className="font-sans text-base text-ink-200 leading-relaxed">{card.applyTip}</p>
+        <p className="font-sans text-sm text-ink-200 leading-relaxed">{card.applyTip}</p>
       </section>
 
       {/* 태그 */}
