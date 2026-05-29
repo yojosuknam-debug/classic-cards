@@ -45,9 +45,8 @@ export function getCardsByPack(packId) {
 }
 
 export function getDailyCard() {
-  const free = _allCards.filter(c => c.isFree)
   const day = Math.floor(Date.now() / 86400000)
-  return free[day % free.length]
+  return _allCards[day % _allCards.length]
 }
 
 export const SITUATION_TAGS = [

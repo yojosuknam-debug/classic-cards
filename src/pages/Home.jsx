@@ -100,7 +100,7 @@ export default function Home() {
       >
         <div>
           <p className="font-sans text-sm font-medium text-ink-100">전체 카드덱 보기</p>
-          <p className="font-sans text-xs text-ink-400 mt-0.5">6가지 고전 · 69수</p>
+          <p className="font-sans text-xs text-ink-400 mt-0.5">11가지 고전 · 119수 · 전체 무료</p>
         </div>
         <ArrowRight size={16} className="text-ink-400" />
       </button>
