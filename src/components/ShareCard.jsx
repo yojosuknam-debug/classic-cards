@@ -31,7 +31,7 @@ function getGradient(colorClass) {
 const ShareCard = forwardRef(function ShareCard({ card, pack }, ref) {
   const scriptFont = FONT_MAP[pack?.scriptFont || 'serif']
   const isRTL = pack?.scriptDir === 'rtl'
-  const gradient = getGradient(pack?.color || 'from-slate-800 to-slate-950')
+  const gradient = getGradient(pack?.color || 'from-slate-700 to-slate-900')
   const accentHex = getAccentHex(pack?.accentColor)
 
   return (
@@ -45,7 +45,7 @@ const ShareCard = forwardRef(function ShareCard({ card, pack }, ref) {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'space-between',
-        padding: '80px 72px',
+        padding: '72px 80px',
         fontFamily: '"Noto Sans KR", sans-serif',
         position: 'relative',
         overflow: 'hidden',
@@ -53,39 +53,34 @@ const ShareCard = forwardRef(function ShareCard({ card, pack }, ref) {
     >
       {/* 배경 장식 원 */}
       <div style={{
-        position: 'absolute',
-        top: -200,
-        right: -200,
-        width: 600,
-        height: 600,
-        borderRadius: '50%',
-        background: 'rgba(255,255,255,0.03)',
-        pointerEvents: 'none',
+        position: 'absolute', top: -200, right: -200,
+        width: 600, height: 600, borderRadius: '50%',
+        background: 'rgba(255,255,255,0.04)', pointerEvents: 'none',
       }} />
       <div style={{
-        position: 'absolute',
-        bottom: -150,
-        left: -150,
-        width: 400,
-        height: 400,
-        borderRadius: '50%',
-        background: 'rgba(255,255,255,0.02)',
-        pointerEvents: 'none',
+        position: 'absolute', bottom: -150, left: -150,
+        width: 400, height: 400, borderRadius: '50%',
+        background: 'rgba(255,255,255,0.03)', pointerEvents: 'none',
       }} />
 
       {/* 상단: 출처 */}
-      <div style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+      <div style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
         <div>
-          <div style={{ fontSize: 26, color: 'rgba(255,255,255,0.5)', marginBottom: 4 }}>
+          <div style={{ fontSize: 28, color: 'rgba(255,255,255,0.6)', marginBottom: 6, fontWeight: 500 }}>
             {pack?.emoji} {card.source.work}
           </div>
-          <div style={{ fontSize: 20, color: 'rgba(255,255,255,0.3)' }}>
+          <div style={{ fontSize: 22, color: 'rgba(255,255,255,0.35)', fontWeight: 300 }}>
             {card.source.chapter} · {card.source.era}
           </div>
         </div>
+        {/* 상단 우측 포인트 장식 */}
+        <div style={{
+          width: 8, height: 8, borderRadius: '50%',
+          background: accentHex, opacity: 0.7, marginTop: 10,
+        }} />
       </div>
 
-      {/* 중앙: 원문 */}
+      {/* 중앙: 원문 영역 — 계층 강조 */}
       <div style={{
         flex: 1,
         display: 'flex',
@@ -93,22 +88,22 @@ const ShareCard = forwardRef(function ShareCard({ card, pack }, ref) {
         alignItems: 'center',
         justifyContent: 'center',
         width: '100%',
-        gap: 40,
-        padding: '60px 0',
+        gap: 36,
+        padding: '48px 0',
       }}>
         {/* 구분선 위 */}
-        <div style={{ width: 60, height: 2, background: accentHex, opacity: 0.6 }} />
+        <div style={{ width: 48, height: 2, background: accentHex, opacity: 0.5 }} />
 
-        {/* 원문 */}
+        {/* 원문 — 최대 볼드·가장 크게 */}
         <div style={{
           fontFamily: scriptFont,
-          fontSize: isRTL ? 90 : 80,
-          fontWeight: 600,
+          fontSize: isRTL ? 92 : 82,
+          fontWeight: 800,
           color: accentHex,
           textAlign: 'center',
           direction: isRTL ? 'rtl' : 'ltr',
-          lineHeight: 1.5,
-          letterSpacing: isRTL ? 0 : '0.05em',
+          lineHeight: 1.45,
+          letterSpacing: isRTL ? 0 : '0.06em',
           maxWidth: '90%',
           wordBreak: 'break-word',
         }}>
@@ -116,57 +111,58 @@ const ShareCard = forwardRef(function ShareCard({ card, pack }, ref) {
         </div>
 
         {/* 구분선 아래 */}
-        <div style={{ width: 60, height: 2, background: accentHex, opacity: 0.6 }} />
+        <div style={{ width: 48, height: 2, background: accentHex, opacity: 0.5 }} />
 
-        {/* 한국어 번역 */}
+        {/* 한국어 번역 — 얇게, 중간 크기 */}
         <div style={{
           fontFamily: '"Noto Serif KR", serif',
-          fontSize: 40,
-          fontWeight: 400,
-          color: 'rgba(255,255,255,0.85)',
+          fontSize: 36,
+          fontWeight: 300,
+          color: 'rgba(255,255,255,0.82)',
           textAlign: 'center',
-          lineHeight: 1.7,
-          maxWidth: '88%',
+          lineHeight: 1.75,
+          maxWidth: '86%',
+          letterSpacing: '0.01em',
         }}>
           {card.originalTextKo}
         </div>
       </div>
 
-      {/* 하단: 오늘 적용하기 + 워터마크 */}
+      {/* 하단: 적용 팁 + 워터마크 */}
       <div style={{ width: '100%' }}>
-        {/* 적용 팁 배경 박스 */}
+        {/* 적용 팁 박스 */}
         <div style={{
-          background: 'rgba(255,255,255,0.07)',
-          borderRadius: 16,
-          padding: '28px 36px',
-          marginBottom: 40,
-          borderLeft: `4px solid ${accentHex}`,
+          background: 'rgba(255,255,255,0.06)',
+          borderRadius: 20,
+          padding: '24px 32px',
+          marginBottom: 36,
+          borderLeft: `3px solid ${accentHex}`,
         }}>
-          <div style={{ fontSize: 22, color: accentHex, marginBottom: 10, fontWeight: 600 }}>
+          <div style={{ fontSize: 20, color: accentHex, marginBottom: 8, fontWeight: 600, letterSpacing: '0.08em' }}>
             오늘 적용하기
           </div>
           <div style={{
             fontFamily: '"Noto Sans KR", sans-serif',
-            fontSize: 26,
-            color: 'rgba(255,255,255,0.75)',
-            lineHeight: 1.6,
+            fontSize: 24,
+            fontWeight: 300,
+            color: 'rgba(255,255,255,0.7)',
+            lineHeight: 1.65,
+            display: '-webkit-box',
+            WebkitLineClamp: 3,
+            WebkitBoxOrient: 'vertical',
+            overflow: 'hidden',
           }}>
             {card.applyTip}
           </div>
         </div>
 
         {/* 워터마크 */}
-        <div style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          gap: 12,
-        }}>
-          <div style={{ width: 40, height: 1, background: 'rgba(255,255,255,0.2)' }} />
-          <div style={{ fontSize: 20, color: 'rgba(255,255,255,0.35)', letterSpacing: '0.15em' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 14 }}>
+          <div style={{ width: 36, height: 1, background: 'rgba(255,255,255,0.2)' }} />
+          <div style={{ fontSize: 19, color: 'rgba(255,255,255,0.3)', letterSpacing: '0.18em', fontWeight: 300 }}>
             고전 전략 카드덱
           </div>
-          <div style={{ width: 40, height: 1, background: 'rgba(255,255,255,0.2)' }} />
+          <div style={{ width: 36, height: 1, background: 'rgba(255,255,255,0.2)' }} />
         </div>
       </div>
     </div>
