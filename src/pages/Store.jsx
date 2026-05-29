@@ -53,11 +53,11 @@ function PackCard({ pack, navigate }) {
                        hover:bg-ink-800 transition-colors text-left"
           >
             <div className="flex-1 min-w-0">
-              <p className={`font-serif text-sm ${pack.accentColor}`}
+              <p className={`font-serif text-sm truncate ${pack.accentColor}`}
                  style={{ direction: pack.scriptDir === 'rtl' ? 'rtl' : 'ltr' }}>
                 {card.originalText}
               </p>
-              <p className="font-sans text-xs text-ink-400 mt-0.5 line-clamp-2">{card.originalTextKo}</p>
+              <p className="font-sans text-xs text-ink-400 mt-0.5 truncate">{card.originalTextKo}</p>
             </div>
             <ChevronRight size={16} className="text-ink-600 flex-shrink-0 ml-2" />
           </button>
