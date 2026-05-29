@@ -66,10 +66,10 @@ const ShareCard = forwardRef(function ShareCard({ card, pack }, ref) {
       {/* 상단: 출처 */}
       <div style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
         <div>
-          <div style={{ fontSize: 28, color: 'rgba(255,255,255,0.6)', marginBottom: 6, fontWeight: 500 }}>
+          <div style={{ fontSize: 32, color: 'rgba(255,255,255,0.6)', marginBottom: 6, fontWeight: 500 }}>
             {pack?.emoji} {card.source.work}
           </div>
-          <div style={{ fontSize: 22, color: 'rgba(255,255,255,0.35)', fontWeight: 300 }}>
+          <div style={{ fontSize: 24, color: 'rgba(255,255,255,0.35)', fontWeight: 300 }}>
             {card.source.chapter} · {card.source.era}
           </div>
         </div>
@@ -116,11 +116,11 @@ const ShareCard = forwardRef(function ShareCard({ card, pack }, ref) {
         {/* 한국어 번역 — 얇게, 중간 크기 */}
         <div style={{
           fontFamily: '"Noto Serif KR", serif',
-          fontSize: 36,
+          fontSize: 43,
           fontWeight: 300,
           color: 'rgba(255,255,255,0.82)',
           textAlign: 'center',
-          lineHeight: 1.75,
+          lineHeight: 1.7,
           maxWidth: '86%',
           letterSpacing: '0.01em',
         }}>
@@ -143,7 +143,7 @@ const ShareCard = forwardRef(function ShareCard({ card, pack }, ref) {
           </div>
           <div style={{
             fontFamily: '"Noto Sans KR", sans-serif',
-            fontSize: 24,
+            fontSize: 43,
             fontWeight: 300,
             color: 'rgba(255,255,255,0.7)',
             lineHeight: 1.65,
