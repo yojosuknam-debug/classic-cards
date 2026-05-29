@@ -1,0 +1,158 @@
+{
+  "pack": {
+    "id": "36stratagems-core",
+    "title": "36계 — 전술의 정수 12수",
+    "description": "중국 고대 병법의 결정판. 36가지 전술 중 현대 경쟁·협상·위기에서 가장 자주 쓰이는 12계.",
+    "source": "삼십육계 (三十六計), 중국 고대 병법서, 송~명대 편찬",
+    "cardCount": 12,
+    "previewCardIds": ["36s-001", "36s-002", "36s-003"],
+    "priceTier": "tier_990",
+    "productId": "com.nexislab.classiccards.pack.36stratagems_core"
+  },
+  "cards": [
+    {
+      "id": "36s-001",
+      "packId": "36stratagems-core",
+      "strategyType": "sunzi",
+      "source": { "work": "삼십육계", "chapter": "第1計", "era": "송~명대" },
+      "originalText": "瞞天過海",
+      "originalTextKo": "하늘을 속여 바다를 건넌다 — 익숙함 속에 진짜 움직임을 숨겨라",
+      "commentary": "가장 위험한 것은 예측되는 행동이다. 너무 자주, 너무 공개적으로 준비하면 상대가 대비한다. 일상적인 행동 안에 진짜 움직임을 감추는 것이 이 계의 핵심이다.",
+      "applyTip": "지금 추진 중인 일의 진짜 의도를 굳이 모두에게 알릴 필요가 있는가? 알릴 것과 감출 것을 구분해보라.",
+      "tags": ["전략·경쟁", "협상"],
+      "isFree": true
+    },
+    {
+      "id": "36s-002",
+      "packId": "36stratagems-core",
+      "strategyType": "sunzi",
+      "source": { "work": "삼십육계", "chapter": "第2計", "era": "송~명대" },
+      "originalText": "圍魏救趙",
+      "originalTextKo": "위나라를 포위하여 조나라를 구한다 — 문제를 직접 공략하지 말고 핵심을 위협하라",
+      "commentary": "막힌 문제를 정면으로 공략하는 것이 항상 효율적이지 않다. 상대가 지키려는 것의 다른 측면을 위협하면, 상대 스스로 물러나거나 협상 테이블로 온다. 우회 전략이 더 적은 비용으로 목적을 달성한다.",
+      "applyTip": "지금 막힌 문제가 있다면, 직접 해결 대신 그 문제를 만드는 배경 조건을 바꾸는 방법을 생각해보라.",
+      "tags": ["전략·경쟁", "협상"],
+      "isFree": true
+    },
+    {
+      "id": "36s-003",
+      "packId": "36stratagems-core",
+      "strategyType": "sunzi",
+      "source": { "work": "삼십육계", "chapter": "第4計", "era": "송~명대" },
+      "originalText": "以逸待勞",
+      "originalTextKo": "편안히 쉬며 지친 상대를 기다린다 — 타이밍이 역량보다 강할 때가 있다",
+      "commentary": "에너지가 소진된 상대와 싸우는 것이 최고의 전략이다. 모든 순간에 최대 에너지를 쓰면 정작 결정적 순간에 소진된다. 지키면서 기다리는 것이 공격보다 유리한 상황이 있다.",
+      "applyTip": "지금 서두르고 있는 일이 있는가? 타이밍을 기다리면 더 좋은 결과가 나올 상황인지 판단해보라.",
+      "tags": ["전략·경쟁", "의사결정"],
+      "isFree": true
+    },
+    {
+      "id": "36s-004",
+      "packId": "36stratagems-core",
+      "strategyType": "sunzi",
+      "source": { "work": "삼십육계", "chapter": "第6計", "era": "송~명대" },
+      "originalText": "聲東擊西",
+      "originalTextKo": "동쪽에서 소리치고 서쪽을 친다 — 주의를 분산시켜 진짜 목표를 공략하라",
+      "commentary": "상대의 주의를 한 곳에 집중시키면 다른 곳은 자연히 약해진다. 협상에서도 큰 요구를 먼저 내세워 진짜 원하는 것을 덜 부각시키는 전술이 여기서 나온다. 시선을 이끄는 것이 실력이다.",
+      "applyTip": "지금 협상이나 경쟁 상황에서, 상대가 주목하게 하고 싶은 것과 내가 진짜 원하는 것을 구분해보라.",
+      "tags": ["협상", "전략·경쟁"],
+      "isFree": true
+    },
+    {
+      "id": "36s-005",
+      "packId": "36stratagems-core",
+      "strategyType": "sunzi",
+      "source": { "work": "삼십육계", "chapter": "第7計", "era": "송~명대" },
+      "originalText": "無中生有",
+      "originalTextKo": "없는 것에서 있는 것을 만든다 — 존재하지 않는 것처럼 보이게 하거나, 없는 것을 있게 만들어라",
+      "commentary": "기대와 인식은 현실만큼 강력하다. 없는 옵션을 있는 것처럼 암시하거나, 자원 없이 이미 있는 것처럼 행동하는 것이 협상력을 높인다. 포지셔닝은 실제 자원만큼 중요하다.",
+      "applyTip": "지금 협상이나 경쟁에서 내가 가진 대안을 상대가 알고 있는가? 모른다면 알게 하라.",
+      "tags": ["협상", "전략·경쟁"],
+      "isFree": true
+    },
+    {
+      "id": "36s-006",
+      "packId": "36stratagems-core",
+      "strategyType": "sunzi",
+      "source": { "work": "삼십육계", "chapter": "第9計", "era": "송~명대" },
+      "originalText": "隔岸觀火",
+      "originalTextKo": "강 건너 불구경 — 상대의 내부 갈등이 소진될 때까지 기다려라",
+      "commentary": "상대가 내부적으로 흔들릴 때 개입하면 오히려 상대가 단결하는 빌미를 준다. 때로는 아무것도 하지 않는 것이 가장 강한 전략이다. 상대의 에너지가 스스로 소진될 때를 기다려라.",
+      "applyTip": "지금 굳이 개입하지 않아도 스스로 해결될 상황이 있는가? 개입 충동을 억제하는 것이 더 유리할 수 있다.",
+      "tags": ["전략·경쟁", "의사결정"],
+      "isFree": true
+    },
+    {
+      "id": "36s-007",
+      "packId": "36stratagems-core",
+      "strategyType": "sunzi",
+      "source": { "work": "삼십육계", "chapter": "第10計", "era": "송~명대" },
+      "originalText": "笑裏藏刀",
+      "originalTextKo": "웃음 속에 칼을 감춘다 — 친밀함을 유지하면서 경계를 늦추지 마라",
+      "commentary": "이 계는 나쁜 의도를 가르치는 것이 아니라, 상대가 이 전술을 쓸 수 있다는 것을 인식하게 한다. 지나치게 친밀한 태도 뒤에 숨은 의도를 읽는 것이 이 계에서 배울 점이다.",
+      "applyTip": "지금 지나치게 친절한 상대가 있는가? 그 친절의 이면에 어떤 의도가 있는지 한번 검토해보라.",
+      "tags": ["협상", "위기관리"],
+      "isFree": true
+    },
+    {
+      "id": "36s-008",
+      "packId": "36stratagems-core",
+      "strategyType": "sunzi",
+      "source": { "work": "삼십육계", "chapter": "第11計", "era": "송~명대" },
+      "originalText": "李代桃僵",
+      "originalTextKo": "오얏나무가 복숭아나무 대신 죽는다 — 작은 것을 잃고 큰 것을 지켜라",
+      "commentary": "모든 것을 지키려다 모든 것을 잃는다. 잃어도 되는 것을 먼저 식별하고, 그것을 내줌으로써 더 중요한 것을 보호하는 것이 전략적 포기다. 희생의 대상을 선택하는 것이 전략이다.",
+      "applyTip": "지금 동시에 지키려는 것들 중, 하나를 포기함으로써 나머지를 더 잘 지킬 수 있는 것이 있는가?",
+      "tags": ["의사결정", "전략·경쟁"],
+      "isFree": true
+    },
+    {
+      "id": "36s-009",
+      "packId": "36stratagems-core",
+      "strategyType": "sunzi",
+      "source": { "work": "삼십육계", "chapter": "第16計", "era": "송~명대" },
+      "originalText": "欲擒故縱",
+      "originalTextKo": "잡으려면 먼저 놓아주어라 — 압박보다 자율이 더 강한 결속을 만든다",
+      "commentary": "과도한 통제는 저항을 만든다. 반대로 자율을 주면 상대가 스스로 결속된다. 사람은 강요받은 것보다 스스로 선택한 것에 더 헌신한다. 놓아줌이 더 강한 연결을 만든다.",
+      "applyTip": "지금 너무 강하게 통제하거나 압박하고 있는 관계나 상황이 있는가? 한 발 물러나면 어떻게 될지 생각해보라.",
+      "tags": ["인간관계", "리더십"],
+      "isFree": true
+    },
+    {
+      "id": "36s-010",
+      "packId": "36stratagems-core",
+      "strategyType": "sunzi",
+      "source": { "work": "삼십육계", "chapter": "第19計", "era": "송~명대" },
+      "originalText": "釜底抽薪",
+      "originalTextKo": "가마솥 아래 장작을 빼라 — 문제의 증상이 아닌 원인을 제거하라",
+      "commentary": "불을 끄려면 물을 붓는 것보다 장작을 빼는 것이 근본적이다. 반복되는 문제는 매번 수습이 아니라 원인 제거가 필요하다. 대증요법에 익숙해지면 진짜 문제를 볼 수 없게 된다.",
+      "applyTip": "지금 반복되는 문제가 있다면, 원인(장작)이 무엇인지 찾아라. 증상을 계속 수습하는 것은 장기적으로 더 비쌀 수 있다.",
+      "tags": ["의사결정", "위기관리"],
+      "isFree": true
+    },
+    {
+      "id": "36s-011",
+      "packId": "36stratagems-core",
+      "strategyType": "sunzi",
+      "source": { "work": "삼십육계", "chapter": "第29計", "era": "송~명대" },
+      "originalText": "樹上開花",
+      "originalTextKo": "나무 위에 꽃이 피다 — 실력보다 커 보이게 하는 것이 전략이 될 수 있다",
+      "commentary": "실제 자원이 부족해도 인식을 통해 상대에게 더 강하게 보일 수 있다. 협상이나 경쟁에서 실력 자체만큼 그 실력이 어떻게 인식되는지가 중요하다. 포지셔닝은 실전 전에 시작된다.",
+      "applyTip": "지금 나의 역량이 상대에게 어떻게 인식되고 있는가? 실제보다 과소평가되고 있다면 어떻게 바로잡을 수 있는가?",
+      "tags": ["전략·경쟁", "협상"],
+      "isFree": true
+    },
+    {
+      "id": "36s-012",
+      "packId": "36stratagems-core",
+      "strategyType": "sunzi",
+      "source": { "work": "삼십육계", "chapter": "第36計", "era": "송~명대" },
+      "originalText": "走為上計",
+      "originalTextKo": "도망치는 것이 최고의 계책이다 — 이길 수 없는 싸움에서 물러나는 것도 전략이다",
+      "commentary": "마지막 계책이 '도망'이라는 것이 의미심장하다. 지지 않는 싸움 선택이 이기는 싸움 선택보다 더 중요하다. 체면 때문에 불리한 싸움을 계속하는 것은 전략적 실패다. 물러남은 재기의 준비다.",
+      "applyTip": "지금 이길 가능성이 낮은데 계속하고 있는 싸움이나 상황이 있는가? 물러나는 것의 이점을 냉정하게 계산해보라.",
+      "tags": ["의사결정", "전략·경쟁"],
+      "isFree": true
+    }
+  ]
+}

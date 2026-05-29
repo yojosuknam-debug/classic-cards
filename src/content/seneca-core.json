@@ -1,0 +1,136 @@
+{
+  "pack": {
+    "id": "seneca-core",
+    "title": "세네카 — 시간과 삶 10수",
+    "description": "로마 스토아 철학자 세네카의 서한집에서 뽑은 열 구절. 시간·집중·삶의 짧음에 대한 냉철한 경고.",
+    "source": "루킬리우스에게 보내는 서한 (Epistulae Morales), 루키우스 안나이우스 세네카, 4 BCE~65 CE",
+    "cardCount": 10,
+    "previewCardIds": ["seneca-001", "seneca-002", "seneca-003"],
+    "priceTier": "free",
+    "productId": null,
+    "scriptFont": "serif",
+    "scriptDir": "ltr"
+  },
+  "cards": [
+    {
+      "id": "seneca-001",
+      "packId": "seneca-core",
+      "strategyType": "marcus",
+      "source": { "work": "Epistulae Morales", "chapter": "Ep. I · 1", "era": "65 CE" },
+      "originalText": "Ita fac, mi Lucili: vindica te tibi.",
+      "originalTextKo": "그렇게 하게, 나의 루킬리우스: 자기 자신을 되찾게.",
+      "commentary": "세네카가 서한 첫 문장에서 한 말이다. 우리는 시간을 쓰는 것 같지만 실은 빼앗기고 있다. 자신의 시간을 의식적으로 소유하는 것 — 그것이 자유의 출발이다.",
+      "applyTip": "오늘 하루 중 진짜 나 자신의 것인 시간이 얼마나 되는가? 한 시간만이라도 되찾아보라.",
+      "tags": ["자기관리", "의사결정"],
+      "isFree": true
+    },
+    {
+      "id": "seneca-002",
+      "packId": "seneca-core",
+      "strategyType": "marcus",
+      "source": { "work": "Epistulae Morales", "chapter": "Ep. I · 3", "era": "65 CE" },
+      "originalText": "Omnia aliena sunt, tempus tantum nostrum est.",
+      "originalTextKo": "모든 것은 남의 것, 시간만이 우리 것이다.",
+      "commentary": "재산, 명예, 지위는 빼앗길 수 있다. 그러나 지금 이 순간을 어떻게 쓸지는 아무도 빼앗지 못한다. 시간이 유일한 자산이라는 것을 알 때 낭비가 달라 보인다.",
+      "applyTip": "오늘 쓴 시간 중 빼앗긴 것과 자발적으로 준 것을 구분해보라. 빼앗긴 시간을 줄일 방법이 있는가?",
+      "tags": ["자기관리"],
+      "isFree": true
+    },
+    {
+      "id": "seneca-003",
+      "packId": "seneca-core",
+      "strategyType": "marcus",
+      "source": { "work": "Epistulae Morales", "chapter": "Ep. I · 1", "era": "65 CE" },
+      "originalText": "Dum differtur vita transcurrit.",
+      "originalTextKo": "미루는 동안 삶이 지나간다.",
+      "commentary": "세네카가 반복해서 경고한 핵심이다. '나중에'는 가장 비싼 단어다. 삶은 기다려주지 않는다. 완벽한 조건이 갖춰질 때까지 기다리는 동안, 시간은 이미 쓰였다.",
+      "applyTip": "지금 '나중에 하겠다'고 미루고 있는 것 중 오늘 5분만이라도 시작할 수 있는 것을 하나 골라라.",
+      "tags": ["자기관리", "의사결정"],
+      "isFree": true
+    },
+    {
+      "id": "seneca-004",
+      "packId": "seneca-core",
+      "strategyType": "marcus",
+      "source": { "work": "Epistulae Morales", "chapter": "Ep. II · 2", "era": "65 CE" },
+      "originalText": "Nusquam est qui ubique est.",
+      "originalTextKo": "모든 곳에 있는 사람은 아무 데도 없다.",
+      "commentary": "집중은 선택의 문제다. 동시에 여러 곳에 있으려는 사람은 실제로는 어디에도 없는 것과 같다. 깊이는 넓이의 희생으로 만들어진다. 세네카의 이 한 줄이 현대 멀티태스킹 문화에 대한 가장 오래된 경고다.",
+      "applyTip": "지금 동시에 진행 중인 것들의 목록을 써보라. 그중 진짜 중요한 하나에 집중한다면 무엇을 선택하겠는가?",
+      "tags": ["자기관리", "의사결정"],
+      "isFree": true
+    },
+    {
+      "id": "seneca-005",
+      "packId": "seneca-core",
+      "strategyType": "marcus",
+      "source": { "work": "Epistulae Morales", "chapter": "Ep. VII · 2", "era": "65 CE" },
+      "originalText": "Inimica est multorum conversatio.",
+      "originalTextKo": "군중과의 교제는 해롭다.",
+      "commentary": "군중 속에 있으면 자신도 모르게 군중의 기준을 따라가게 된다. 세네카는 고독을 두려워하지 말라고 말한다. 혼자 있는 시간이 자신의 기준을 회복하는 시간이다.",
+      "applyTip": "오늘 혼자 있는 시간을 의도적으로 30분 만들어보라. 그 시간에 자신이 실제로 무엇을 원하는지 생각해보라.",
+      "tags": ["자기관리"],
+      "isFree": true
+    },
+    {
+      "id": "seneca-006",
+      "packId": "seneca-core",
+      "strategyType": "marcus",
+      "source": { "work": "Epistulae Morales", "chapter": "Ep. VII · 8", "era": "65 CE" },
+      "originalText": "Recede in te ipse.",
+      "originalTextKo": "자기 자신 안으로 물러나라.",
+      "commentary": "외부의 소음에서 물러나는 것이 후퇴가 아니다. 자신 안으로 들어가는 것이 가장 생산적인 이동이다. 세네카는 고독을 두려워하는 것이 자기 자신을 두려워하는 것이라고 봤다.",
+      "applyTip": "오늘 일과가 끝난 뒤, 어떤 자극도 없이 5분간 자신의 내면을 들여다보라.",
+      "tags": ["자기관리"],
+      "isFree": true
+    },
+    {
+      "id": "seneca-007",
+      "packId": "seneca-core",
+      "strategyType": "marcus",
+      "source": { "work": "De Brevitate Vitae", "chapter": "I · 3", "era": "49 CE" },
+      "originalText": "Non exiguum temporis habemus, sed multum perdidimus.",
+      "originalTextKo": "우리가 가진 시간이 적은 것이 아니라, 많은 시간을 낭비한 것이다.",
+      "commentary": "시간이 부족한 것이 아니라 시간을 잃어버리는 것이 문제다. 바쁘게 사는 것이 잘 사는 것이 아니다. 세네카는 '바쁨'이 시간 낭비의 가장 교묘한 형태라고 말한다.",
+      "applyTip": "지난주 당신의 시간을 어디에 썼는가? '바쁘지만 의미 없던' 시간을 하나 떠올려보라.",
+      "tags": ["자기관리", "의사결정"],
+      "isFree": true
+    },
+    {
+      "id": "seneca-008",
+      "packId": "seneca-core",
+      "strategyType": "marcus",
+      "source": { "work": "Epistulae Morales", "chapter": "Ep. LXXVII · 20", "era": "65 CE" },
+      "originalText": "Omnia, Lucili, aliena sunt, tempus tantum nostrum.",
+      "originalTextKo": "루킬리우스, 모든 것은 남의 것이다. 시간만이 우리 것이다.",
+      "commentary": "죽음 앞에서 재산도, 명예도, 관계도 가져가지 못한다. 그러나 지금 이 순간을 어떻게 살았는지는 내 것으로 남는다. 무엇을 소유하는가보다 어떻게 시간을 쓰는가가 삶의 질을 결정한다.",
+      "applyTip": "오늘 죽는다면 무엇을 후회할 것 같은가? 그 후회를 예방하는 행동을 하나 오늘 하라.",
+      "tags": ["의사결정", "자기관리"],
+      "isFree": true
+    },
+    {
+      "id": "seneca-009",
+      "packId": "seneca-core",
+      "strategyType": "marcus",
+      "source": { "work": "Epistulae Morales", "chapter": "Ep. CIV · 7", "era": "65 CE" },
+      "originalText": "Dum differunt, vita transcurrit.",
+      "originalTextKo": "그들이 미루는 동안, 삶은 지나간다.",
+      "commentary": "세네카가 여러 서한에 반복한 가장 강렬한 경고다. 나중이라는 것은 없다. 내일 더 잘 살겠다고 오늘을 허비하는 것은 결국 일생을 허비하는 것이다.",
+      "applyTip": "지금 가장 중요하다고 생각하면서도 계속 미루고 있는 것이 무엇인가? 오늘 그것을 향한 가장 작은 한 걸음을 내딛어라.",
+      "tags": ["자기관리", "학습·성장"],
+      "isFree": true
+    },
+    {
+      "id": "seneca-010",
+      "packId": "seneca-core",
+      "strategyType": "marcus",
+      "source": { "work": "Epistulae Morales", "chapter": "Ep. LXXXIII · 2", "era": "65 CE" },
+      "originalText": "Omnia per indicia constat.",
+      "originalTextKo": "모든 것은 증거로 드러난다.",
+      "commentary": "말이 아니라 행동이, 의도가 아니라 결과가 사람을 드러낸다. 세네카는 매일 자신의 하루를 검토했다. 자신을 돌아보는 것이 두렵다면, 아직 살고 싶은 대로 살지 못하고 있다는 신호다.",
+      "applyTip": "오늘 하루 자신의 행동이 자신이 원하는 사람의 모습과 얼마나 일치했는지 검토해보라.",
+      "tags": ["자기관리", "학습·성장"],
+      "isFree": true
+    }
+  ]
+}

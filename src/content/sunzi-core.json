@@ -1,0 +1,134 @@
+{
+  "pack": {
+    "id": "sunzi-core",
+    "title": "손자병법 — 전략의 기본기 10수",
+    "description": "2,500년 전 손자가 쓴 13편 중 핵심 열 구절. 전쟁론이 아니라 협상·경쟁·의사결정을 위한 사고틀.",
+    "source": "손자병법 (孫子兵法), 손무 (孫武), BCE 5C",
+    "cardCount": 10,
+    "previewCardIds": ["sunzi-001", "sunzi-002", "sunzi-003"],
+    "priceTier": "free",
+    "productId": null
+  },
+  "cards": [
+    {
+      "id": "sunzi-001",
+      "packId": "sunzi-core",
+      "strategyType": "sunzi",
+      "source": { "work": "손자병법", "chapter": "謀攻 (모공편)", "era": "BCE 5C" },
+      "originalText": "知彼知己，百戰不殆",
+      "originalTextKo": "적을 알고 나를 알면, 백 번 싸워도 위태롭지 않다",
+      "commentary": "협상·갈등 앞에서 우리는 흔히 자신의 논리만 다듬는다. 그러나 상대의 우선순위, 압박, 대안을 먼저 파악한 쪽이 먼저 움직임을 예측한다. '준비'는 내 말을 고르는 일이 아니라 상대의 상황을 이해하는 일이다.",
+      "applyTip": "오늘 중요한 대화 전, 상대가 가장 걱정하는 것을 한 가지만 먼저 써보라.",
+      "tags": ["협상", "의사결정", "전략·경쟁"],
+      "isFree": true
+    },
+    {
+      "id": "sunzi-002",
+      "packId": "sunzi-core",
+      "strategyType": "sunzi",
+      "source": { "work": "손자병법", "chapter": "始計 (시계편)", "era": "BCE 5C" },
+      "originalText": "兵者，詭道也",
+      "originalTextKo": "전략은 예측 불가능성의 기술이다",
+      "commentary": "여기서 '속임'이란 거짓말이 아니라 예측 불가능성이다. 내 다음 수가 뻔히 보이면 이미 주도권을 잃었다. 루틴을 깨고 예상과 다른 각도로 접근하는 것이 전략의 출발이다.",
+      "applyTip": "상대가 당연히 예상할 내 다음 행동을 하나 골라, 그것을 뒤집는 선택지를 떠올려보라.",
+      "tags": ["전략·경쟁", "협상"],
+      "isFree": true
+    },
+    {
+      "id": "sunzi-003",
+      "packId": "sunzi-core",
+      "strategyType": "sunzi",
+      "source": { "work": "손자병법", "chapter": "謀攻 (모공편)", "era": "BCE 5C" },
+      "originalText": "上兵伐謀",
+      "originalTextKo": "최선은 충돌 이전에 상대의 계획을 무력화하는 것이다",
+      "commentary": "가장 비용이 적고 효과적인 방법은 충돌 자체를 무력화하는 것이다. 상대의 동기를 이해하면, 협력이 충돌보다 유리하다는 것을 상대 스스로 깨닫게 만들 수 있다.",
+      "applyTip": "지금 진행 중인 갈등에서, 상대가 원하는 것을 내가 줄 수 있는지 먼저 검토해보라.",
+      "tags": ["협상", "인간관계"],
+      "isFree": true
+    },
+    {
+      "id": "sunzi-004",
+      "packId": "sunzi-core",
+      "strategyType": "sunzi",
+      "source": { "work": "손자병법", "chapter": "虛實 (허실편)", "era": "BCE 5C" },
+      "originalText": "避實擊虛",
+      "originalTextKo": "강한 곳을 피하고, 빈 곳을 공략하라",
+      "commentary": "경쟁은 정면충돌이 아니다. 상대의 자원이 집중된 곳에는 맞불을 놓고, 아무도 주목하지 않는 공백지대를 먼저 점령하는 것이 효율적이다. 시장·직장·관계 어디서든 적용된다.",
+      "applyTip": "지금 경쟁이 몰리는 영역 옆에 아직 비어 있는 공백을 찾아라.",
+      "tags": ["전략·경쟁", "의사결정"],
+      "isFree": true
+    },
+    {
+      "id": "sunzi-005",
+      "packId": "sunzi-core",
+      "strategyType": "sunzi",
+      "source": { "work": "손자병법", "chapter": "軍形 (군형편)", "era": "BCE 5C" },
+      "originalText": "勝兵先勝而後求戰",
+      "originalTextKo": "이기는 군대는 먼저 이길 조건을 만든 뒤 싸운다",
+      "commentary": "승리는 전장이 아니라 준비 단계에서 결정된다. 조건이 충분히 유리해질 때까지 기다리는 것은 소극성이 아니라 전략적 인내다. 준비 없이 움직이는 것은 용기가 아니라 낭비다.",
+      "applyTip": "지금 시작하려는 일의 성공 조건 세 가지를 먼저 적어보라. 셋이 갖춰지면 그때 움직여라.",
+      "tags": ["의사결정", "전략·경쟁"],
+      "isFree": true
+    },
+    {
+      "id": "sunzi-006",
+      "packId": "sunzi-core",
+      "strategyType": "sunzi",
+      "source": { "work": "손자병법", "chapter": "九變 (구변편)", "era": "BCE 5C" },
+      "originalText": "將有五危",
+      "originalTextKo": "리더에게는 다섯 가지 위험한 성격이 있다",
+      "commentary": "손자는 리더의 적이 외부가 아니라 자신 안에 있다고 봤다. 무모한 용기, 지나친 신중함, 급한 성격, 명예 집착, 부하에 대한 감상(感傷)이 그것이다. 강점이 과잉될 때 약점이 된다.",
+      "applyTip": "자신의 가장 강한 특성 하나를 떠올리고, 그것이 과잉됐을 때 어떤 실수를 낳는지 적어보라.",
+      "tags": ["리더십", "자기관리"],
+      "isFree": true
+    },
+    {
+      "id": "sunzi-007",
+      "packId": "sunzi-core",
+      "strategyType": "sunzi",
+      "source": { "work": "손자병법", "chapter": "始計 (시계편)", "era": "BCE 5C" },
+      "originalText": "多算勝，少算不勝",
+      "originalTextKo": "많이 계산한 쪽이 이기고, 덜 계산한 쪽은 이기지 못한다",
+      "commentary": "직관은 경험의 압축이다. 하지만 직관만으로 큰 결정을 내리는 것은 게으름이다. 시나리오를 많이 그릴수록 '예상치 못한' 상황이 줄어든다. 준비의 깊이가 결과의 너비를 결정한다.",
+      "applyTip": "오늘 결정해야 할 일의 최악 시나리오를 구체적으로 하나 써보라. 그 시나리오가 괜찮으면 움직여라.",
+      "tags": ["의사결정"],
+      "isFree": true
+    },
+    {
+      "id": "sunzi-008",
+      "packId": "sunzi-core",
+      "strategyType": "sunzi",
+      "source": { "work": "손자병법", "chapter": "用間 (용간편)", "era": "BCE 5C" },
+      "originalText": "先知也",
+      "originalTextKo": "뛰어난 리더가 움직여서 이기는 이유는 오직 먼저 알기 때문이다",
+      "commentary": "정보는 전략의 연료다. 의사결정의 질은 행동력보다 정보의 질에 의해 결정된다. '빠른 실행'은 '충분한 정보 없이 움직이는 것'을 정당화하지 않는다.",
+      "applyTip": "중요한 결정 앞에서 '아직 모르는 것'을 세 가지 나열하고, 그중 하나를 오늘 확인하라.",
+      "tags": ["의사결정", "전략·경쟁"],
+      "isFree": true
+    },
+    {
+      "id": "sunzi-009",
+      "packId": "sunzi-core",
+      "strategyType": "sunzi",
+      "source": { "work": "손자병법", "chapter": "勢 (세편)", "era": "BCE 5C" },
+      "originalText": "激水之疾，至於漂石者，勢也",
+      "originalTextKo": "급류가 돌을 굴리는 것은 물의 힘이 아니라 기세(勢)다",
+      "commentary": "타이밍과 축적이 만나면 작은 힘도 큰 결과를 낸다. 개인의 역량보다 지금 흐름 위에 있는지가 더 중요할 때가 있다. 기세를 타는 것은 편승이 아니라 전략이다.",
+      "applyTip": "지금 당신이 올라타야 할 '흐름'을 하나 적어보라. 그 흐름에 당신은 맞춰져 있는가?",
+      "tags": ["전략·경쟁", "의사결정"],
+      "isFree": true
+    },
+    {
+      "id": "sunzi-010",
+      "packId": "sunzi-core",
+      "strategyType": "sunzi",
+      "source": { "work": "손자병법", "chapter": "行軍 (행군편)", "era": "BCE 5C" },
+      "originalText": "令之以文，齊之以武",
+      "originalTextKo": "사람을 이끌 때는 문(文)으로 설득하고, 무(武)로 기강을 세워라",
+      "commentary": "동기부여와 규율은 반대가 아니다. 비전·공감·설득이 행동의 방향을 만들고, 일관된 원칙·피드백·책임이 지속성을 만든다. 둘 중 하나만으로는 조직도 개인도 오래가지 못한다.",
+      "applyTip": "당신이 이끄는 관계(팀, 가족, 동료)에서 '문'과 '무' 중 어느 쪽이 부족한지 점검하라.",
+      "tags": ["리더십", "인간관계"],
+      "isFree": true
+    }
+  ]
+}

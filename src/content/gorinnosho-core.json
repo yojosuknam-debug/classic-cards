@@ -1,0 +1,136 @@
+{
+  "pack": {
+    "id": "gorinnosho-core",
+    "title": "오륜서 — 검의 전략 10수",
+    "description": "미야모토 무사시가 죽기 직전 남긴 병법서. 전략·집중·수련에 관한 검객의 철학.",
+    "source": "오륜서 (五輪書), 미야모토 무사시 (宮本武蔵), 1645",
+    "cardCount": 10,
+    "previewCardIds": ["gorin-001", "gorin-002", "gorin-003"],
+    "priceTier": "free",
+    "productId": null,
+    "scriptFont": "japanese",
+    "scriptDir": "ltr"
+  },
+  "cards": [
+    {
+      "id": "gorin-001",
+      "packId": "gorinnosho-core",
+      "strategyType": "sunzi",
+      "source": { "work": "오륜서", "chapter": "지권 (地の巻)", "era": "1645" },
+      "originalText": "千日の稽古を鍛とし、万日の稽古を錬とす",
+      "originalTextKo": "천 일의 수련이 단(鍛)이요, 만 일의 수련이 련(錬)이다",
+      "commentary": "기초를 다지는 데 천 일, 진짜 숙련에 만 일이 필요하다. 무사시는 결과가 아니라 수련 자체에 의미를 두었다. 빠른 성과를 원하는 시대에 가장 강렬한 경고다. 진짜 실력은 쌓이는 것이지 얻는 것이 아니다.",
+      "applyTip": "지금 하고 있는 것 중 '천 일'을 투자할 수 있는 것이 무엇인가? 그것에 오늘 하루를 투자하라.",
+      "tags": ["학습·성장", "자기관리"],
+      "isFree": true
+    },
+    {
+      "id": "gorin-002",
+      "packId": "gorinnosho-core",
+      "strategyType": "sunzi",
+      "source": { "work": "오륜서", "chapter": "지권 (地の巻)", "era": "1645" },
+      "originalText": "何事においても、よく見ること肝要なり",
+      "originalTextKo": "모든 일에서 잘 보는 것이 가장 중요하다",
+      "commentary": "무사시의 검법에서 '보는 것'은 단순한 시각이 아니다. 상대의 움직임, 의도, 전체 상황을 동시에 파악하는 것이다. 어떤 분야든 표면이 아니라 본질을 보는 능력이 실력의 차이를 만든다.",
+      "applyTip": "지금 해결하려는 문제의 표면 아래에 있는 진짜 원인을 한 번 더 들여다보라.",
+      "tags": ["의사결정", "전략·경쟁"],
+      "isFree": true
+    },
+    {
+      "id": "gorin-003",
+      "packId": "gorinnosho-core",
+      "strategyType": "sunzi",
+      "source": { "work": "독행도 (独行道)", "chapter": "제2칙", "era": "1645" },
+      "originalText": "我、神仏を尊んで、神仏を頼まず",
+      "originalTextKo": "신과 부처를 공경하되, 신과 부처에 의지하지 않는다",
+      "commentary": "무사시의 자립 선언이다. 무언가를 존중하는 것과 그것에 의존하는 것은 다르다. 자신의 힘으로 서는 것 — 이것이 무사시가 평생 추구한 것이다. 외부에 구원을 기대하지 않는 것이 진짜 강함이다.",
+      "applyTip": "지금 당신이 외부(타인, 상황, 운)에 너무 의존하고 있는 것이 있는가? 그것을 자신의 힘으로 해결할 수 있는 방법을 찾아보라.",
+      "tags": ["자기관리", "의사결정"],
+      "isFree": true
+    },
+    {
+      "id": "gorin-004",
+      "packId": "gorinnosho-core",
+      "strategyType": "sunzi",
+      "source": { "work": "오륜서", "chapter": "수권 (水の巻)", "era": "1645" },
+      "originalText": "心は常に中心にあって、かたよらず",
+      "originalTextKo": "마음은 항상 중심에 있어야 하며, 치우치지 않는다",
+      "commentary": "무사시의 검에서 '중심'은 균형이다. 감정이 한쪽으로 치우치면 빈틈이 생긴다. 흥분도, 두려움도, 방심도 모두 균형을 무너뜨린다. 평정심이 가장 강한 자세다.",
+      "applyTip": "지금 감정이 한쪽으로 치우쳐 있는 상황이 있는가? 중심을 잡는 것이 먼저다.",
+      "tags": ["자기관리", "의사결정"],
+      "isFree": true
+    },
+    {
+      "id": "gorin-005",
+      "packId": "gorinnosho-core",
+      "strategyType": "sunzi",
+      "source": { "work": "오륜서", "chapter": "화권 (火の巻)", "era": "1645" },
+      "originalText": "先手を取ることの大切さを知るべし",
+      "originalTextKo": "선수(先手)를 잡는 것의 중요함을 알아야 한다",
+      "commentary": "무사시는 기다리는 것이 아니라 먼저 움직여 주도권을 잡는 것을 중시했다. 상대가 준비하기 전에 움직이는 것이 전략의 핵심이다. 단, 선수는 무모한 돌진이 아니라 준비된 선제다.",
+      "applyTip": "지금 주도권을 상대에게 넘기고 있는 상황이 있는가? 먼저 움직일 수 있는 방법을 찾아보라.",
+      "tags": ["전략·경쟁", "의사결정"],
+      "isFree": true
+    },
+    {
+      "id": "gorin-006",
+      "packId": "gorinnosho-core",
+      "strategyType": "sunzi",
+      "source": { "work": "독행도", "chapter": "제1칙", "era": "1645" },
+      "originalText": "世々の道にそむく事なし",
+      "originalTextKo": "세상의 이치에 어긋나지 않는다",
+      "commentary": "무사시의 첫 번째 독행도 원칙이다. 자신만의 원칙이 있되, 그것이 큰 흐름과 어긋나지 않아야 한다. 개인의 전략은 시대와 상황의 흐름을 이해하는 것에서 시작된다.",
+      "applyTip": "지금 당신의 방식이 시대의 흐름과 맞는가, 아니면 거스르고 있는가? 어느 쪽이 의도적인지 확인하라.",
+      "tags": ["전략·경쟁", "의사결정"],
+      "isFree": true
+    },
+    {
+      "id": "gorin-007",
+      "packId": "gorinnosho-core",
+      "strategyType": "sunzi",
+      "source": { "work": "오륜서", "chapter": "풍권 (風の巻)", "era": "1645" },
+      "originalText": "他流を知って、我流を磨く",
+      "originalTextKo": "다른 유파를 알고, 나의 길을 갈아라",
+      "commentary": "무사시는 평생 다양한 검술을 연구했다. 자신의 방식만 고집하면 좁아진다. 다른 방법을 이해하는 것이 자신의 방법을 더 강하게 만든다. 경쟁자를 연구하는 것이 자기 성장의 일부다.",
+      "applyTip": "지금 경쟁자나 반대 관점을 깊이 이해하고 있는가? 그것을 통해 자신의 방식을 어떻게 강화할 수 있는가?",
+      "tags": ["학습·성장", "전략·경쟁"],
+      "isFree": true
+    },
+    {
+      "id": "gorin-008",
+      "packId": "gorinnosho-core",
+      "strategyType": "sunzi",
+      "source": { "work": "독행도", "chapter": "제9칙", "era": "1645" },
+      "originalText": "我事において後悔をせず",
+      "originalTextKo": "나 자신의 일에서 후회를 하지 않는다",
+      "commentary": "무사시의 아홉 번째 원칙이다. 후회는 과거를 현재에 끌어들이는 행위다. 최선을 다한 행동이라면 결과가 어떻든 후회할 필요가 없다. 할 수 있는 것을 하고, 결과는 받아들이는 것이 무사시의 방식이다.",
+      "applyTip": "지금 후회하고 있는 것이 있는가? 그것에서 배울 것을 얻고 나면, 이제 내려놓아라.",
+      "tags": ["자기관리"],
+      "isFree": true
+    },
+    {
+      "id": "gorin-009",
+      "packId": "gorinnosho-core",
+      "strategyType": "sunzi",
+      "source": { "work": "오륜서", "chapter": "공권 (空の巻)", "era": "1645" },
+      "originalText": "空とは形なきものにして、知恵の在処なり",
+      "originalTextKo": "공(空)은 형태가 없는 것이며, 지혜가 있는 곳이다",
+      "commentary": "무사시는 마지막 권을 '공(空)'으로 끝낸다. 완전한 숙련의 경지는 의식적인 기술을 넘어선다. 분석하고 계획하는 것을 넘어, 자연스럽게 흐르는 것 — 이것이 최고의 경지다.",
+      "applyTip": "지금 너무 분석하고 계획해서 오히려 자연스럽지 못한 것이 있는가? 때로는 내려놓고 흐르는 것도 전략이다.",
+      "tags": ["자기관리", "의사결정"],
+      "isFree": true
+    },
+    {
+      "id": "gorin-010",
+      "packId": "gorinnosho-core",
+      "strategyType": "sunzi",
+      "source": { "work": "독행도", "chapter": "제21칙", "era": "1645" },
+      "originalText": "常に兵法の道を離れず",
+      "originalTextKo": "언제나 병법의 도에서 벗어나지 않는다",
+      "commentary": "무사시가 독행도의 마지막에 남긴 원칙이다. 하나의 길을 선택했다면 그것에서 떠나지 않는 것이 수련의 본질이다. 일관성이 깊이를 만들고, 깊이가 진짜 실력을 만든다.",
+      "applyTip": "지금 당신이 선택한 길이 있는가? 최근 그 길에서 얼마나 일관되게 걸어왔는지 돌아보라.",
+      "tags": ["자기관리", "학습·성장"],
+      "isFree": true
+    }
+  ]
+}

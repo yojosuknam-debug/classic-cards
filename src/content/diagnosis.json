@@ -1,0 +1,110 @@
+{
+  "id": "strategy-style",
+  "title": "나의 전략 스타일은?",
+  "description": "6가지 상황에서의 반응으로 당신의 전략 유형을 알아봅니다",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "중요한 결정을 앞두고 당신이 먼저 하는 것은?",
+      "options": [
+        { "id": "a", "text": "상대방의 상황과 의도를 파악한다", "mapsTo": "sunzi" },
+        { "id": "b", "text": "원칙과 기준에 따라 냉정하게 판단한다", "mapsTo": "hanfei" },
+        { "id": "c", "text": "주변 사람들의 의견을 들어본다", "mapsTo": "confucius" },
+        { "id": "d", "text": "혼자 조용히 생각을 정리한다", "mapsTo": "marcus" }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "갈등 상황에서 가장 먼저 하는 것은?",
+      "options": [
+        { "id": "a", "text": "상대가 진짜 원하는 것이 무엇인지 파악한다", "mapsTo": "sunzi" },
+        { "id": "b", "text": "어느 쪽이 맞는지 논리적으로 따진다", "mapsTo": "hanfei" },
+        { "id": "c", "text": "관계를 해치지 않도록 대화를 시도한다", "mapsTo": "confucius" },
+        { "id": "d", "text": "일단 감정을 가라앉히고 상황을 관찰한다", "mapsTo": "marcus" }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "사람을 이끌 때 가장 중요하게 생각하는 것은?",
+      "options": [
+        { "id": "a", "text": "각자의 강점을 파악해 최대한 활용하는 것", "mapsTo": "sunzi" },
+        { "id": "b", "text": "명확한 규칙과 책임 구조를 세우는 것", "mapsTo": "hanfei" },
+        { "id": "c", "text": "신뢰와 관계를 먼저 쌓는 것", "mapsTo": "confucius" },
+        { "id": "d", "text": "각자가 스스로 성장하도록 돕는 것", "mapsTo": "marcus" }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "실패 후 회복하는 당신의 방식은?",
+      "options": [
+        { "id": "a", "text": "무엇이 잘못됐는지 분석하고 다음 전략을 세운다", "mapsTo": "sunzi" },
+        { "id": "b", "text": "원인을 찾고 재발 방지 시스템을 만든다", "mapsTo": "hanfei" },
+        { "id": "c", "text": "주변의 위로와 지지를 받으며 회복한다", "mapsTo": "confucius" },
+        { "id": "d", "text": "혼자 조용히 소화하고 내면에서 답을 찾는다", "mapsTo": "marcus" }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "새로운 기회 앞에서 당신은?",
+      "options": [
+        { "id": "a", "text": "경쟁자와 시장 상황을 먼저 분석한다", "mapsTo": "sunzi" },
+        { "id": "b", "text": "리스크와 이익을 냉정하게 계산한다", "mapsTo": "hanfei" },
+        { "id": "c", "text": "신뢰할 수 있는 사람들과 의논한다", "mapsTo": "confucius" },
+        { "id": "d", "text": "내가 진짜 원하는 것인지 먼저 묻는다", "mapsTo": "marcus" }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "가장 공감이 가는 믿음은?",
+      "options": [
+        { "id": "a", "text": "정보와 준비가 승패를 결정한다", "mapsTo": "sunzi" },
+        { "id": "b", "text": "시스템과 원칙이 사람보다 오래간다", "mapsTo": "hanfei" },
+        { "id": "c", "text": "관계와 신뢰가 모든 것의 기반이다", "mapsTo": "confucius" },
+        { "id": "d", "text": "외부가 아닌 내면을 다스리는 것이 핵심이다", "mapsTo": "marcus" }
+      ]
+    }
+  ],
+  "resultTypes": [
+    {
+      "id": "sunzi",
+      "label": "손자형 — 전략가",
+      "emoji": "⚔️",
+      "desc": "정보 수집과 분석으로 움직이는 당신. 상대를 파악하고 준비하는 것을 중시하며, 큰 그림에서 움직임을 설계합니다. 충돌 전에 이미 결과를 계산합니다.",
+      "strength": "철저한 준비, 상황 분석, 선제적 대응",
+      "watch": "지나친 분석으로 실행이 늦어질 수 있습니다",
+      "recommendPackIds": ["sunzi-core", "36stratagems-core"],
+      "recommendTags": ["전략·경쟁", "의사결정", "협상"]
+    },
+    {
+      "id": "hanfei",
+      "label": "한비자형 — 현실주의자",
+      "emoji": "⚖️",
+      "desc": "원칙과 시스템으로 움직이는 당신. 감정보다 구조를 믿으며, 일관된 기준으로 판단합니다. 효율과 결과를 중시합니다.",
+      "strength": "원칙 수립, 시스템 설계, 냉철한 판단",
+      "watch": "관계와 감정의 변수를 놓칠 수 있습니다",
+      "recommendPackIds": ["hanfeizi-core", "sunzi-core"],
+      "recommendTags": ["리더십", "의사결정", "위기관리"]
+    },
+    {
+      "id": "confucius",
+      "label": "공자형 — 관계주의자",
+      "emoji": "📖",
+      "desc": "신뢰와 관계로 움직이는 당신. 사람을 이해하고 연결하는 것에 강하며, 장기적 관계를 소중히 합니다. 조화를 추구합니다.",
+      "strength": "신뢰 구축, 공감과 소통, 장기 관계",
+      "watch": "갈등 회피로 중요한 결정이 늦어질 수 있습니다",
+      "recommendPackIds": ["analects-core", "caigentan-core"],
+      "recommendTags": ["인간관계", "학습·성장"]
+    },
+    {
+      "id": "marcus",
+      "label": "마르쿠스형 — 내면탐구자",
+      "emoji": "🪐",
+      "desc": "내면의 성찰로 움직이는 당신. 흔들리지 않는 내면을 만드는 것을 중시하며, 감정을 다스리는 데 강합니다. 철학적 시각을 가집니다.",
+      "strength": "평정심 유지, 자기성찰, 장기적 사고",
+      "watch": "실행과 외부 협력보다 내면에 집중하는 경향이 있습니다",
+      "recommendPackIds": ["meditations-core", "caigentan-core"],
+      "recommendTags": ["자기관리"]
+    }
+  ],
+  "scoringRule": "MAJORITY_OF_MAPPED_OPTIONS"
+}

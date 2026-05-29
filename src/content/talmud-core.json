@@ -1,0 +1,136 @@
+{
+  "pack": {
+    "id": "talmud-core",
+    "title": "탈무드 — 지혜의 격언 10수",
+    "description": "유대 현인들의 집대성. 인간·관계·행동에 관한 2,000년 된 실용적 지혜.",
+    "source": "탈무드 (תַּלְמוּד) · 피르케이 아봇 (אָבוֹת), BCE 200~500 CE",
+    "cardCount": 10,
+    "previewCardIds": ["talmud-001", "talmud-002", "talmud-003"],
+    "priceTier": "free",
+    "productId": null,
+    "scriptFont": "hebrew",
+    "scriptDir": "rtl"
+  },
+  "cards": [
+    {
+      "id": "talmud-001",
+      "packId": "talmud-core",
+      "strategyType": "confucius",
+      "source": { "work": "피르케이 아봇", "chapter": "1:14", "era": "BCE 200~200 CE" },
+      "originalText": "אִם אֵין אֲנִי לִי, מִי לִי",
+      "originalTextKo": "내가 나를 위하지 않으면, 누가 나를 위하랴",
+      "commentary": "자기 자신을 돌보는 것은 이기심이 아니라 모든 관계의 전제 조건이다. 텅 빈 컵으로는 다른 사람의 컵을 채울 수 없다. 자신을 먼저 챙기는 것이 더 많이 줄 수 있는 기반이 된다.",
+      "applyTip": "오늘 자신을 위해 한 것이 있는가? 작은 것이라도 자신을 채우는 행동을 하나 하라.",
+      "tags": ["자기관리", "인간관계"],
+      "isFree": true
+    },
+    {
+      "id": "talmud-002",
+      "packId": "talmud-core",
+      "strategyType": "confucius",
+      "source": { "work": "피르케이 아봇", "chapter": "2:4", "era": "BCE 200~200 CE" },
+      "originalText": "אַל תָּדוּן אֶת חֲבֵרְךָ עַד שֶׁתַּגִּיעַ לִמְקוֹמוֹ",
+      "originalTextKo": "그의 자리에 가 보기 전까지 이웃을 판단하지 마라",
+      "commentary": "판단은 쉽고 이해는 어렵다. 타인의 행동이 이해가 안 될 때, 그 사람의 상황과 압박을 충분히 알지 못하는 경우가 대부분이다. 판단을 미루고 먼저 이해하려는 자세가 관계를 바꾼다.",
+      "applyTip": "최근 이해할 수 없는 행동을 한 사람이 있다면, 그 사람의 상황이 어떠했을지 상상해보라.",
+      "tags": ["인간관계"],
+      "isFree": true
+    },
+    {
+      "id": "talmud-003",
+      "packId": "talmud-core",
+      "strategyType": "confucius",
+      "source": { "work": "피르케이 아봇", "chapter": "4:1", "era": "BCE 200~200 CE" },
+      "originalText": "אֵיזֶהוּ חָכָם? הַלּוֹמֵד מִכָּל אָדָם",
+      "originalTextKo": "누가 현자인가? 모든 사람에게서 배우는 사람이다",
+      "commentary": "현자의 조건은 높은 지식이 아니라 배움의 자세다. 배울 수 없는 사람은 없다. 나보다 못하다고 여기는 사람에게서도 무언가를 배울 수 있을 때 진짜 현명함이 시작된다.",
+      "applyTip": "오늘 만난 사람 중 예상치 못한 곳에서 배울 점을 하나 찾아보라.",
+      "tags": ["학습·성장", "인간관계"],
+      "isFree": true
+    },
+    {
+      "id": "talmud-004",
+      "packId": "talmud-core",
+      "strategyType": "confucius",
+      "source": { "work": "피르케이 아봇", "chapter": "1:17", "era": "BCE 200~200 CE" },
+      "originalText": "לֹא הַמִּדְרָשׁ עִקָּר אֶלָּא הַמַּעֲשֶׂה",
+      "originalTextKo": "배움이 핵심이 아니라 행동이 핵심이다",
+      "commentary": "아는 것과 사는 것은 다르다. 이론으로 가득 찬 사람보다 작게 알고 크게 행동하는 사람이 더 많이 실현한다. 탈무드는 배움을 행동의 전제 조건이 아니라 행동과 함께 완성되는 것으로 본다.",
+      "applyTip": "최근 배웠지만 아직 실천하지 않은 것이 있는가? 오늘 그것을 한 번 행동으로 옮겨보라.",
+      "tags": ["학습·성장", "자기관리"],
+      "isFree": true
+    },
+    {
+      "id": "talmud-005",
+      "packId": "talmud-core",
+      "strategyType": "confucius",
+      "source": { "work": "산헤드린", "chapter": "37a", "era": "200~500 CE" },
+      "originalText": "כָּל הַמְקַיֵּם נֶפֶשׁ אַחַת מַעֲלֶה עָלָיו הַכָּתוּב כְּאִלּוּ קִיֵּם עוֹלָם מָלֵא",
+      "originalTextKo": "한 생명을 구하는 것은 온 세상을 구하는 것과 같다",
+      "commentary": "개인의 가치는 측정할 수 없다. 탈무드는 한 사람의 세계가 전체 우주만큼 크다고 말한다. 일상에서 한 사람에게 미치는 작은 선행이 그 사람에게는 세상 전부일 수 있다.",
+      "applyTip": "오늘 한 사람에게 작은 도움을 줄 수 있는 것을 하나 해보라. 그 사람에게 그것이 세상 전부일 수 있다.",
+      "tags": ["인간관계"],
+      "isFree": true
+    },
+    {
+      "id": "talmud-006",
+      "packId": "talmud-core",
+      "strategyType": "confucius",
+      "source": { "work": "피르케이 아봇", "chapter": "2:7", "era": "BCE 200~200 CE" },
+      "originalText": "מַרְבֶּה נְכָסִים מַרְבֶּה דְאָגָה",
+      "originalTextKo": "재산이 많을수록 걱정도 많다",
+      "commentary": "소유는 자유를 줄 것 같지만 실제로는 지켜야 할 것을 늘린다. 많이 가질수록 잃을 것이 많고, 잃을 것이 많을수록 두려움이 커진다. 적정선에서 멈추는 것도 지혜다.",
+      "applyTip": "지금 소유하고 있는 것 중 실제로 자유를 주는 것과 오히려 짐이 되는 것을 구분해보라.",
+      "tags": ["자기관리", "의사결정"],
+      "isFree": true
+    },
+    {
+      "id": "talmud-007",
+      "packId": "talmud-core",
+      "strategyType": "confucius",
+      "source": { "work": "피르케이 아봇", "chapter": "1:6", "era": "BCE 200~200 CE" },
+      "originalText": "הֱוֵי דָן אֶת כָּל הָאָדָם לְכַף זְכוּת",
+      "originalTextKo": "모든 사람을 선의(善意)로 판단하라",
+      "commentary": "의심보다 선의가 더 정확할 때가 많다. 악의를 가정하면 관계는 방어적이 되고 협력이 줄어든다. 선의를 전제하면 상대도 그 기대에 맞게 행동하는 경향이 있다.",
+      "applyTip": "지금 부정적으로 해석하고 있는 누군가의 행동을 선의로 재해석해보라. 그것이 관계를 어떻게 바꾸는가?",
+      "tags": ["인간관계"],
+      "isFree": true
+    },
+    {
+      "id": "talmud-008",
+      "packId": "talmud-core",
+      "strategyType": "confucius",
+      "source": { "work": "피르케이 아봇", "chapter": "4:17", "era": "BCE 200~200 CE" },
+      "originalText": "יָפָה שָׁעָה אַחַת שֶׁל תְּשׁוּבָה וּמַעֲשִׂים טוֹבִים בָּעוֹלָם הַזֶּה",
+      "originalTextKo": "이 세상에서 회개와 선행의 한 시간이 내세의 모든 삶보다 낫다",
+      "commentary": "지금 이 순간에 행동하는 것의 가치를 말한다. 나중에 잘하겠다는 계획보다 지금 작게라도 행동하는 것이 훨씬 가치 있다. 현재가 가장 강력한 시간이다.",
+      "applyTip": "지금 당장 선한 일을 하나 하라. 그것이 어떤 큰 계획보다 더 실제적이다.",
+      "tags": ["자기관리", "인간관계"],
+      "isFree": true
+    },
+    {
+      "id": "talmud-009",
+      "packId": "talmud-core",
+      "strategyType": "confucius",
+      "source": { "work": "피르케이 아봇", "chapter": "3:17", "era": "BCE 200~200 CE" },
+      "originalText": "אִם אֵין קֶמַח, אֵין תּוֹרָה",
+      "originalTextKo": "빵이 없으면 지식도 없다",
+      "commentary": "탈무드는 현실을 외면하는 이상주의를 경계한다. 기본적인 생계가 해결되지 않으면 고차원적인 성장도 없다. 정신적 성장을 위한 물질적 토대를 무시하는 것은 지혜롭지 않다.",
+      "applyTip": "지금 정신적·내면적 성장을 막고 있는 현실적 문제가 있는가? 그것을 먼저 해결하는 것이 순서에 맞다.",
+      "tags": ["의사결정", "자기관리"],
+      "isFree": true
+    },
+    {
+      "id": "talmud-010",
+      "packId": "talmud-core",
+      "strategyType": "confucius",
+      "source": { "work": "기틴", "chapter": "43a", "era": "200~500 CE" },
+      "originalText": "אֵין אָדָם עוֹמֵד עַל דִּבְרֵי תוֹרָה אֶלָּא אִם כֵּן נִכְשַׁל בָּהֶם",
+      "originalTextKo": "실패를 통해서만 진짜 깨달음에 이른다",
+      "commentary": "넘어져보지 않고 배운 것은 피상적이다. 탈무드는 실패를 배움의 필수 경로로 본다. 실수를 두려워하는 것이 아니라 실수에서 배우지 않는 것을 경계해야 한다.",
+      "applyTip": "최근 실패한 것에서 아직 배우지 못한 교훈이 있는가? 오늘 그것을 꺼내 다시 살펴보라.",
+      "tags": ["학습·성장"],
+      "isFree": true
+    }
+  ]
+}

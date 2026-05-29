@@ -1,0 +1,134 @@
+{
+  "pack": {
+    "id": "meditations-core",
+    "title": "명상록 — 내면의 전략 10수",
+    "description": "로마 황제 마르쿠스 아우렐리우스의 사적 일기. 흔들리지 않는 내면을 만드는 스토아 철학의 정수.",
+    "source": "명상록 (Τὰ εἰς ἑαυτόν), 마르쿠스 아우렐리우스, 161~180 CE",
+    "cardCount": 10,
+    "previewCardIds": ["med-001", "med-002", "med-003"],
+    "priceTier": "tier_990",
+    "productId": "com.nexislab.classiccards.pack.meditations_core"
+  },
+  "cards": [
+    {
+      "id": "med-001",
+      "packId": "meditations-core",
+      "strategyType": "marcus",
+      "source": { "work": "명상록", "chapter": "Book VI · 2", "era": "161~180 CE" },
+      "originalText": "τὸ ἐμποδίζον τῇ ὁρμῇ, αὐτὸ ὁρμή",
+      "originalTextKo": "행동을 가로막는 것이 곧 행동의 재료가 된다",
+      "commentary": "장애물은 진전을 멈추게 하지 않는다. 오히려 장애물을 분석하면 더 나은 경로가 보인다. 저항이 있는 곳에 배움이 있고, 막힌 곳에 다음 방향이 숨어있다.",
+      "applyTip": "지금 막혀 있는 문제를 떠올려보라. 그 장애물 자체가 무엇을 알려주고 있는가?",
+      "tags": ["위기관리", "자기관리"],
+      "isFree": true
+    },
+    {
+      "id": "med-002",
+      "packId": "meditations-core",
+      "strategyType": "marcus",
+      "source": { "work": "명상록", "chapter": "Book IV · 3", "era": "161~180 CE" },
+      "originalText": "ἐπὶ τὸ παρὸν μόνον ἀπόβλεπε",
+      "originalTextKo": "오직 현재에만 눈을 돌려라",
+      "commentary": "과거의 후회와 미래의 불안은 실제로 존재하지 않는 장소에서의 고통이다. 지금 이 순간만이 실제로 내가 행동할 수 있는 유일한 장소다. 집중력은 현재로 돌아오는 것을 반복하는 훈련에서 만들어진다.",
+      "applyTip": "지금 마음이 과거나 미래로 가 있다면, 오늘 할 수 있는 가장 작은 행동 하나에 집중하라.",
+      "tags": ["자기관리"],
+      "isFree": true
+    },
+    {
+      "id": "med-003",
+      "packId": "meditations-core",
+      "strategyType": "marcus",
+      "source": { "work": "명상록", "chapter": "Book II · 17", "era": "161~180 CE" },
+      "originalText": "ὀλίγον χρόνον μένεις",
+      "originalTextKo": "당신은 짧은 시간만 머문다",
+      "commentary": "마르쿠스는 황제의 자리에서 이것을 썼다. 권력도 명예도 모두 일시적이다. 이 자각은 허무주의가 아니라 지금 이 순간에 집중하게 만드는 힘이다. 끝을 알면 지금이 다르게 보인다.",
+      "applyTip": "오늘 하루 끝에 '이것 하나는 했다'고 말할 수 있을 일 하나를 지금 정하라.",
+      "tags": ["자기관리", "의사결정"],
+      "isFree": true
+    },
+    {
+      "id": "med-004",
+      "packId": "meditations-core",
+      "strategyType": "marcus",
+      "source": { "work": "명상록", "chapter": "Book V · 8", "era": "161~180 CE" },
+      "originalText": "ἀνάλυε τὸ παρεμπῖπτον εἰς ὕλην καὶ αἴτιον",
+      "originalTextKo": "일어나는 일을 재료와 원인으로 분해하라",
+      "commentary": "감정적으로 반응하기 전에 상황을 분해하는 습관이 스토아 철학의 핵심이다. 무슨 일이 일어났는가(재료)와 왜 일어났는가(원인)를 나누면 상황에 끌려다니지 않을 수 있다.",
+      "applyTip": "지금 감정적으로 불편한 상황이 있다면, 사실(무슨 일)과 해석(그것이 나에게 의미하는 것)을 분리해서 써보라.",
+      "tags": ["자기관리", "위기관리"],
+      "isFree": true
+    },
+    {
+      "id": "med-005",
+      "packId": "meditations-core",
+      "strategyType": "marcus",
+      "source": { "work": "명상록", "chapter": "Book VIII · 7", "era": "161~180 CE" },
+      "originalText": "ἐφ' ἡμῖν ἐστι, καὶ οὐκ ἐφ' ἡμῖν",
+      "originalTextKo": "내 통제 안에 있는 것과 밖에 있는 것을 구분하라",
+      "commentary": "스토아 철학의 핵심 구분이다. 내 안에 있는 것(판단, 반응, 태도)과 밖에 있는 것(타인의 행동, 결과, 날씨)을 구분하면 에너지 낭비가 줄어든다. 통제할 수 없는 것에 힘을 쏟는 것은 고통의 원천이다.",
+      "applyTip": "지금 걱정하는 것 중 실제로 내가 통제할 수 있는 것과 없는 것을 나눠보라. 통제할 수 없는 것에 대한 걱정을 내려놓아라.",
+      "tags": ["자기관리", "위기관리"],
+      "isFree": true
+    },
+    {
+      "id": "med-006",
+      "packId": "meditations-core",
+      "strategyType": "marcus",
+      "source": { "work": "명상록", "chapter": "Book VII · 9", "era": "161~180 CE" },
+      "originalText": "εἰ δύνασαι, μετάστησον· εἰ δὲ μή, μετάβηθι",
+      "originalTextKo": "바꿀 수 있으면 바꾸고, 그렇지 않다면 태도를 바꿔라",
+      "commentary": "상황을 바꿀 수 없다면, 상황에 대한 반응을 바꿀 수 있다. 이것이 스토아가 말하는 자유다. 상황의 노예가 되는 것은 외부 때문이 아니라 반응을 선택하지 않는 내 탓이다.",
+      "applyTip": "지금 바꾸기 어려운 상황이 있다면, 그것에 대한 내 태도 중 하나를 바꿀 수 있는가?",
+      "tags": ["자기관리", "위기관리"],
+      "isFree": true
+    },
+    {
+      "id": "med-007",
+      "packId": "meditations-core",
+      "strategyType": "marcus",
+      "source": { "work": "명상록", "chapter": "Book IX · 3", "era": "161~180 CE" },
+      "originalText": "μὴ ἀποστρέφου, ἐπὶ δὲ τοὺς πόνους ὁρμῶ",
+      "originalTextKo": "어려움에서 등을 돌리지 말고, 그것을 향해 나아가라",
+      "commentary": "불편함을 피하는 것이 편안함이 아니다. 불편함을 마주하고 통과하는 것이 역량을 만든다. 도전을 회피할수록 같은 어려움이 더 크게 돌아온다.",
+      "applyTip": "지금 회피하고 있는 불편한 일 하나를 떠올려보라. 오늘 그것을 향해 작은 한 걸음을 내딛어라.",
+      "tags": ["자기관리", "학습·성장"],
+      "isFree": true
+    },
+    {
+      "id": "med-008",
+      "packId": "meditations-core",
+      "strategyType": "marcus",
+      "source": { "work": "명상록", "chapter": "Book IV · 7", "era": "161~180 CE" },
+      "originalText": "μεταβολὴ πάντων ἡ φύσις",
+      "originalTextKo": "모든 것의 본성은 변화다",
+      "commentary": "변하지 않기를 바라는 것은 자연에 저항하는 것이다. 상실, 변화, 끝 — 이것들은 예외적인 사건이 아니라 모든 것의 본질이다. 이것을 받아들이면 변화에 덜 저항하고 더 유연해진다.",
+      "applyTip": "지금 변하고 있어서 불편한 것을 하나 떠올려보라. 그 변화를 저항하지 않고 받아들이면 무엇이 달라지는가?",
+      "tags": ["자기관리"],
+      "isFree": true
+    },
+    {
+      "id": "med-009",
+      "packId": "meditations-core",
+      "strategyType": "marcus",
+      "source": { "work": "명상록", "chapter": "Book III · 16", "era": "161~180 CE" },
+      "originalText": "ψυχὴ βαφεῖσα δόγμασι",
+      "originalTextKo": "영혼은 믿음으로 물든다",
+      "commentary": "우리는 자신이 믿는 것처럼 행동한다. 내가 어떤 전제를 가지고 있는지가 행동의 방향을 결정한다. 결과를 바꾸고 싶다면 행동이 아니라 그 행동을 만드는 전제를 먼저 점검해야 한다.",
+      "applyTip": "반복되는 나쁜 패턴이 있다면, 그 패턴 뒤에 어떤 전제나 믿음이 있는지 적어보라.",
+      "tags": ["자기관리", "학습·성장"],
+      "isFree": true
+    },
+    {
+      "id": "med-010",
+      "packId": "meditations-core",
+      "strategyType": "marcus",
+      "source": { "work": "명상록", "chapter": "Book VI · 30", "era": "161~180 CE" },
+      "originalText": "πρὸς τοὺς πλησίον χρηστεύεσθαι",
+      "originalTextKo": "가까운 사람들에게 친절하게 대하라",
+      "commentary": "마르쿠스는 황제였지만 매일 이것을 자신에게 상기시켰다. 위대한 원칙은 멀리 있지 않다. 지금 가장 가까이 있는 사람을 어떻게 대하는가가 모든 관계의 척도다.",
+      "applyTip": "오늘 가장 자주 보는 사람(가족, 동료, 친구)에게 더 친절하게 대한 순간을 하루 중 하나 만들어보라.",
+      "tags": ["인간관계", "자기관리"],
+      "isFree": true
+    }
+  ]
+}

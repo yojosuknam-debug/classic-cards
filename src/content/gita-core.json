@@ -1,0 +1,136 @@
+{
+  "pack": {
+    "id": "gita-core",
+    "title": "바가바드 기타 — 행위와 의무 10수",
+    "description": "인도 고대 서사시 마하바라타의 핵심. 행동·의무·초연함에 대한 힌두 철학의 정수.",
+    "source": "바가바드 기타 (Bhagavad Gītā), BCE 5~2C 추정",
+    "cardCount": 10,
+    "previewCardIds": ["gita-001", "gita-002", "gita-003"],
+    "priceTier": "free",
+    "productId": null,
+    "scriptFont": "devanagari",
+    "scriptDir": "ltr"
+  },
+  "cards": [
+    {
+      "id": "gita-001",
+      "packId": "gita-core",
+      "strategyType": "marcus",
+      "source": { "work": "바가바드 기타", "chapter": "제2장 47절", "era": "BCE 5~2C" },
+      "originalText": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन",
+      "originalTextKo": "행동할 권리만 있을 뿐, 결과에 대한 권리는 없다",
+      "commentary": "기타의 가장 유명한 구절이다. 결과에 집착하면 행동의 질이 떨어진다. 자신이 통제할 수 있는 것(행동)에만 에너지를 쏟고, 통제할 수 없는 것(결과)에 초연할 때 오히려 더 좋은 결과가 나온다.",
+      "applyTip": "지금 결과가 걱정돼서 행동이 망설여지는 것이 있는가? 결과를 내려놓고 행동 자체에만 집중해보라.",
+      "tags": ["자기관리", "의사결정"],
+      "isFree": true
+    },
+    {
+      "id": "gita-002",
+      "packId": "gita-core",
+      "strategyType": "marcus",
+      "source": { "work": "바가바드 기타", "chapter": "제2장 48절", "era": "BCE 5~2C" },
+      "originalText": "योगः कर्मसु कौशलम्",
+      "originalTextKo": "요가는 행위에서의 숙련이다",
+      "commentary": "요가는 몸을 비트는 것이 아니라 행동의 방식이다. 어떤 일을 하느냐보다 어떻게 하느냐가 수행이 된다. 평범한 일을 온전히 집중해서 하는 것이 가장 높은 수준의 숙련이다.",
+      "applyTip": "오늘 하는 일 중 하나를 '완전히 집중해서' 해보라. 멀티태스킹 없이, 딴생각 없이.",
+      "tags": ["자기관리", "학습·성장"],
+      "isFree": true
+    },
+    {
+      "id": "gita-003",
+      "packId": "gita-core",
+      "strategyType": "marcus",
+      "source": { "work": "바가바드 기타", "chapter": "제2장 14절", "era": "BCE 5~2C" },
+      "originalText": "तांस्तितिक्षस्व भारत",
+      "originalTextKo": "그것들을 견뎌내라, 아르주나여",
+      "commentary": "쾌락과 고통, 더위와 추위는 왔다가 간다. 영원한 것은 없다. 크리슈나는 일시적인 것에 흔들리지 말라고 가르친다. 감각적 경험은 지나가는 것임을 알 때 고통도 쾌락도 균형을 잡는다.",
+      "applyTip": "지금 가장 힘든 것을 떠올려보라. 1년 후에도 이만큼 힘들까? 그것이 지나가는 것임을 기억하라.",
+      "tags": ["자기관리", "위기관리"],
+      "isFree": true
+    },
+    {
+      "id": "gita-004",
+      "packId": "gita-core",
+      "strategyType": "marcus",
+      "source": { "work": "바가바드 기타", "chapter": "제6장 5절", "era": "BCE 5~2C" },
+      "originalText": "उद्धरेदात्मनात्मानं नात्मानमवसादयेत्",
+      "originalTextKo": "자기 자신으로 자기를 구하라. 자신을 망치지 마라",
+      "commentary": "자신이 자신의 가장 좋은 친구이자 가장 나쁜 적이 될 수 있다. 자기 자신을 어떻게 대하느냐가 모든 것의 토대다. 자기 파괴적인 생각과 행동을 인식하는 것이 변화의 출발이다.",
+      "applyTip": "당신이 자기 자신에게 하는 말이 있다면, 그것이 친구에게도 할 수 있는 말인지 확인해보라.",
+      "tags": ["자기관리"],
+      "isFree": true
+    },
+    {
+      "id": "gita-005",
+      "packId": "gita-core",
+      "strategyType": "marcus",
+      "source": { "work": "바가바드 기타", "chapter": "제2장 47절 (후반)", "era": "BCE 5~2C" },
+      "originalText": "मा ते सङ्गोऽस्त्वकर्मणि",
+      "originalTextKo": "행동하지 않음에 집착하지 마라",
+      "commentary": "아무것도 하지 않는 것도 선택이고 행동이다. 두려움 때문에 행동을 미루는 것은 초연함이 아니다. 기타는 세상에서 물러나는 것이 아니라 세상에 완전히 참여하되 결과에 집착하지 않는 것을 가르친다.",
+      "applyTip": "지금 두려움 때문에 행동을 미루고 있는 것이 있는가? 그 두려움을 인정하고 그래도 행동해보라.",
+      "tags": ["의사결정", "자기관리"],
+      "isFree": true
+    },
+    {
+      "id": "gita-006",
+      "packId": "gita-core",
+      "strategyType": "marcus",
+      "source": { "work": "바가바드 기타", "chapter": "제3장 35절", "era": "BCE 5~2C" },
+      "originalText": "स्वधर्मे निधनं श्रेयः परधर्मो भयावहः",
+      "originalTextKo": "자신의 길에서 죽는 것이 낫고, 남의 길은 두렵다",
+      "commentary": "스바다르마(svadharma)는 자신의 본성에 맞는 역할이다. 타인의 길이 더 쉬워 보여도, 자신의 본성을 배반하는 길은 결국 공허하다. 자신에게 맞는 것을 찾고 그것에 충실한 것이 더 가치 있다.",
+      "applyTip": "지금 타인의 기대나 유행 때문에 하고 있는 것 중, 사실 자신의 본성과 맞지 않는 것이 있는가?",
+      "tags": ["자기관리", "의사결정"],
+      "isFree": true
+    },
+    {
+      "id": "gita-007",
+      "packId": "gita-core",
+      "strategyType": "marcus",
+      "source": { "work": "바가바드 기타", "chapter": "제4장 39절", "era": "BCE 5~2C" },
+      "originalText": "श्रद्धावाँल्लभते ज्ञानम्",
+      "originalTextKo": "믿음이 있는 자가 지혜를 얻는다",
+      "commentary": "믿음(श्रद्धा, 슈라다)은 맹목적 신뢰가 아니라 배움에 대한 열린 마음이다. 의심으로 가득 찬 채로는 어떤 배움도 깊이 들어오지 못한다. 배우려는 자세 자체가 지혜의 문을 연다.",
+      "applyTip": "지금 배우고 있는 것에 대해 의심과 열린 마음 중 어느 쪽이 더 많은가? 열린 마음을 늘려보라.",
+      "tags": ["학습·성장"],
+      "isFree": true
+    },
+    {
+      "id": "gita-008",
+      "packId": "gita-core",
+      "strategyType": "marcus",
+      "source": { "work": "바가바드 기타", "chapter": "제2장 19~20절", "era": "BCE 5~2C" },
+      "originalText": "नैनं छिन्दन्ति शस्त्राणि नैनं दहति पावकः",
+      "originalTextKo": "무기도 이것을 자를 수 없고, 불도 이것을 태울 수 없다",
+      "commentary": "아트만(ātman), 즉 본질적 자아는 파괴되지 않는다. 지위, 명예, 외모는 잃을 수 있지만 자신의 본질은 빼앗길 수 없다. 이 확신이 두려움 없는 행동의 토대가 된다.",
+      "applyTip": "외부 상황이 어떻게 바뀌어도 변하지 않는 당신의 본질이 무엇인지 적어보라.",
+      "tags": ["자기관리", "위기관리"],
+      "isFree": true
+    },
+    {
+      "id": "gita-009",
+      "packId": "gita-core",
+      "strategyType": "marcus",
+      "source": { "work": "바가바드 기타", "chapter": "제6장 6절", "era": "BCE 5~2C" },
+      "originalText": "मन एव मनुष्याणां कारणं बन्धमोक्षयोः",
+      "originalTextKo": "마음이 속박과 해방 모두의 원인이다",
+      "commentary": "같은 상황도 마음이 어떻게 보느냐에 따라 감옥이 되기도 하고 자유가 되기도 한다. 외부 조건이 아니라 내면의 해석이 경험을 결정한다. 마음을 바꾸는 것이 세상을 바꾸는 것보다 먼저다.",
+      "applyTip": "지금 힘든 상황을 다른 관점으로 볼 수 있는가? 같은 상황을 성장의 기회로 해석하면 어떻게 달라지는가?",
+      "tags": ["자기관리", "의사결정"],
+      "isFree": true
+    },
+    {
+      "id": "gita-010",
+      "packId": "gita-core",
+      "strategyType": "marcus",
+      "source": { "work": "바가바드 기타", "chapter": "제2장 50절", "era": "BCE 5~2C" },
+      "originalText": "समत्वं योग उच्यते",
+      "originalTextKo": "평정심이 곧 요가다",
+      "commentary": "요가의 핵심은 몸의 자세가 아니라 마음의 균형이다. 성공에도 흔들리지 않고, 실패에도 무너지지 않는 평정심 — 이것이 기타가 말하는 최고의 수행이다. 흔들리지 않는 사람이 가장 강하다.",
+      "applyTip": "오늘 좋은 일과 나쁜 일에 당신의 감정이 얼마나 흔들렸는가? 그 흔들림의 폭을 조금씩 줄여보라.",
+      "tags": ["자기관리"],
+      "isFree": true
+    }
+  ]
+}
