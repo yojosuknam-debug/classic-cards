@@ -54,7 +54,7 @@ export const SITUATION_TAGS = [
   { id: '의사결정',  label: '의사결정',  emoji: '🧭' },
   { id: '리더십',    label: '리더십',    emoji: '👑' },
   { id: '위기관리',  label: '위기관리',  emoji: '🛡️' },
-  { id: '인간관계',  label: '인간관계',  emoji: '👥' },
+  { id: '인간관계',  label: '인간관계',  emoji: '🙌' },
   { id: '자기관리',  label: '자기관리',  emoji: '🎯' },
   { id: '학습·성장', label: '학습·성장', emoji: '📈' },
   { id: '전략·경쟁', label: '전략·경쟁', emoji: '⚡' },
