@@ -9,17 +9,17 @@ const FONT_MAP = {
 }
 
 const GRADIENT_MAP = {
-  'from-slate-800 to-slate-950':   ['#1e293b', '#020617'],
-  'from-emerald-800 to-emerald-950': ['#065f46', '#022c22'],
-  'from-red-900 to-red-950':       ['#7f1d1d', '#450a0a'],
-  'from-violet-800 to-violet-950': ['#4c1d95', '#2e1065'],
-  'from-teal-800 to-teal-950':     ['#115e59', '#042f2e'],
-  'from-orange-900 to-orange-950': ['#7c2d12', '#431407'],
-  'from-rose-800 to-rose-950':     ['#9f1239', '#4c0519'],
-  'from-amber-800 to-amber-950':   ['#92400e', '#451a03'],
-  'from-indigo-800 to-indigo-950': ['#3730a3', '#1e1b4b'],
-  'from-yellow-800 to-yellow-950': ['#854d0e', '#422006'],
-  'from-zinc-800 to-zinc-950':     ['#27272a', '#09090b'],
+  'from-slate-700 to-slate-900':     ['#334155', '#0f172a'],
+  'from-emerald-700 to-emerald-900': ['#047857', '#064e3b'],
+  'from-red-800 to-red-900':         ['#991b1b', '#7f1d1d'],
+  'from-violet-700 to-violet-900':   ['#6d28d9', '#4c1d95'],
+  'from-teal-700 to-teal-900':       ['#0f766e', '#134e4a'],
+  'from-orange-800 to-orange-900':   ['#9a3412', '#7c2d12'],
+  'from-rose-700 to-rose-900':       ['#be123c', '#881337'],
+  'from-amber-700 to-amber-900':     ['#b45309', '#78350f'],
+  'from-indigo-700 to-indigo-900':   ['#4338ca', '#312e81'],
+  'from-yellow-700 to-yellow-900':   ['#a16207', '#713f12'],
+  'from-zinc-700 to-zinc-900':       ['#3f3f46', '#18181b'],
 }
 
 function getGradient(colorClass) {
