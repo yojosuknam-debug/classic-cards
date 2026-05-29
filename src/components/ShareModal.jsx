@@ -102,7 +102,7 @@ export default function ShareModal({ card, onClose }) {
             ) : (
               <Share2 size={16} />
             )}
-            인스타·SNS에 바로 공유
+            공유하기 (카카오·인스타 등)
           </button>
 
           {/* PNG 저장 */}
