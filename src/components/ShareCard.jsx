@@ -102,7 +102,7 @@ const ShareCard = forwardRef(function ShareCard({ card, pack }, ref) {
         {/* 원문 */}
         <div style={{
           fontFamily: scriptFont,
-          fontSize: isRTL ? 72 : 64,
+          fontSize: isRTL ? 90 : 80,
           fontWeight: 600,
           color: accentHex,
           textAlign: 'center',
@@ -121,7 +121,7 @@ const ShareCard = forwardRef(function ShareCard({ card, pack }, ref) {
         {/* 한국어 번역 */}
         <div style={{
           fontFamily: '"Noto Serif KR", serif',
-          fontSize: 32,
+          fontSize: 40,
           fontWeight: 400,
           color: 'rgba(255,255,255,0.85)',
           textAlign: 'center',
@@ -142,12 +142,12 @@ const ShareCard = forwardRef(function ShareCard({ card, pack }, ref) {
           marginBottom: 40,
           borderLeft: `4px solid ${accentHex}`,
         }}>
-          <div style={{ fontSize: 18, color: accentHex, marginBottom: 8, fontWeight: 600 }}>
+          <div style={{ fontSize: 22, color: accentHex, marginBottom: 10, fontWeight: 600 }}>
             오늘 적용하기
           </div>
           <div style={{
             fontFamily: '"Noto Sans KR", sans-serif',
-            fontSize: 22,
+            fontSize: 26,
             color: 'rgba(255,255,255,0.75)',
             lineHeight: 1.6,
           }}>
