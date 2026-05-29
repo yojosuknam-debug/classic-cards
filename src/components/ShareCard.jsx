@@ -138,12 +138,12 @@ const ShareCard = forwardRef(function ShareCard({ card, pack }, ref) {
           marginBottom: 36,
           borderLeft: `3px solid ${accentHex}`,
         }}>
-          <div style={{ fontSize: 20, color: accentHex, marginBottom: 8, fontWeight: 600, letterSpacing: '0.08em' }}>
+          <div style={{ fontSize: 26, color: accentHex, marginBottom: 10, fontWeight: 600, letterSpacing: '0.08em' }}>
             오늘 적용하기
           </div>
           <div style={{
             fontFamily: '"Noto Sans KR", sans-serif',
-            fontSize: 43,
+            fontSize: 52,
             fontWeight: 300,
             color: 'rgba(255,255,255,0.7)',
             lineHeight: 1.65,
