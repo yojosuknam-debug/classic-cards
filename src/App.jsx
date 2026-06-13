@@ -7,6 +7,7 @@ import MyNotes from './pages/MyNotes'
 import Settings from './pages/Settings'
 import Diagnosis from './pages/Diagnosis'
 import FilteredCards from './pages/FilteredCards'
+import Guide from './pages/Guide'
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
             <Route path="/filter/:tag" element={<FilteredCards />} />
             <Route path="/notes" element={<MyNotes />} />
             <Route path="/settings" element={<Settings />} />
+            <Route path="/guide" element={<Guide />} />
           </Routes>
         </main>
         <BottomNav />

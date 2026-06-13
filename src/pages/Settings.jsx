@@ -1,6 +1,8 @@
-import { ExternalLink } from 'lucide-react'
+import { ExternalLink, HelpCircle, ChevronRight } from 'lucide-react'
+import { useNavigate } from 'react-router-dom'
 
 export default function Settings() {
+  const navigate = useNavigate()
   return (
     <div className="flex flex-col px-4 pt-6 pb-24">
       <header className="mb-6">
@@ -8,6 +10,15 @@ export default function Settings() {
       </header>
 
       <div className="flex flex-col gap-4">
+        {/* 소개·사용법 */}
+        <button onClick={() => navigate('/guide')}
+          className="flex items-center justify-between bg-ink-900 rounded-xl border border-ink-700 px-4 py-3 hover:border-ink-500 transition-colors">
+          <span className="flex items-center gap-2 font-sans text-sm text-ink-200">
+            <HelpCircle size={16} className="text-gold-400" /> 앱 소개 · 사용법
+          </span>
+          <ChevronRight size={16} className="text-ink-400" />
+        </button>
+
         {/* 앱 정보 */}
         <section>
           <h2 className="font-sans text-xs font-semibold text-ink-400 tracking-widest mb-3">앱 정보</h2>

@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { ArrowRight, Sparkles } from 'lucide-react'
+import { ArrowRight, Sparkles, HelpCircle } from 'lucide-react'
 import CardView from '../components/CardView'
 import { getDailyCard, SITUATION_TAGS } from '../lib/cards'
 import diagnosisData from '../content/diagnosis.json'
@@ -30,25 +30,35 @@ export default function Home() {
           <p className="font-sans text-xs text-ink-400 tracking-widest">{today}</p>
           <h1 className="font-serif text-xl text-ink-100 mt-0.5">오늘의 전략 한 수</h1>
         </div>
-        {savedType ? (
+        <div className="flex items-center gap-2">
           <button
-            onClick={() => navigate('/diagnosis')}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl
+            onClick={() => navigate('/guide')}
+            aria-label="소개·사용법"
+            className="flex items-center justify-center w-9 h-9 rounded-xl
                        bg-ink-800 border border-ink-700 hover:border-ink-500 transition-colors"
           >
-            <span className="text-base">{savedType.emoji}</span>
-            <span className="font-sans text-xs text-ink-300">{savedType.label.split('—')[0].trim()}</span>
+            <HelpCircle size={16} className="text-ink-300" />
           </button>
-        ) : (
-          <button
-            onClick={() => navigate('/diagnosis')}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl
-                       bg-gold-400/10 border border-gold-400/30 hover:border-gold-400/60 transition-colors"
-          >
-            <Sparkles size={14} className="text-gold-400" />
-            <span className="font-sans text-xs text-gold-400">유형 진단</span>
-          </button>
-        )}
+          {savedType ? (
+            <button
+              onClick={() => navigate('/diagnosis')}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl
+                         bg-ink-800 border border-ink-700 hover:border-ink-500 transition-colors"
+            >
+              <span className="text-base">{savedType.emoji}</span>
+              <span className="font-sans text-xs text-ink-300">{savedType.label.split('—')[0].trim()}</span>
+            </button>
+          ) : (
+            <button
+              onClick={() => navigate('/diagnosis')}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl
+                         bg-gold-400/10 border border-gold-400/30 hover:border-gold-400/60 transition-colors"
+            >
+              <Sparkles size={14} className="text-gold-400" />
+              <span className="font-sans text-xs text-gold-400">유형 진단</span>
+            </button>
+          )}
+        </div>
       </header>
 
       {/* 오늘의 카드 */}
